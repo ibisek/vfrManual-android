@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">VFR Manuál</string>
+    <string name="rwy">RWY</string>
+    <string name="freq">FREQ</string>
+    <string name="elev">Nadm. výška</string>
+    <string name="circleAlt">Okruh</string>
+
+    <string name="menu_voc">VOC</string>
+    <string name="menu_adc">ADC</string>
+
+    <string name="menu_delete_history">Smazat historii</string>
+    <string name="menu_about">O aplikaci</string>
+
+    <string name="about_intro1">Aplikace pro rychlou a jednoduchou orientaci pro přílet na cizí letiště. Informace o letištích jsou získány ze zdroje</string>
+    <string name="about_intro_url">lis.rlp.cz/vfrmanual</string>
+    <string name="about_intro2">a zpracovány pro offline použití. Platnost dat od:</string>
+    <string name="data_valid_from">2018-03-29</string>
+    <string name="about_author">Autor: Ibišek</string>
+    <string name="about_version">Verze aplikace: 2018-03-20</string>
+    <string name="about_download">Tato aplikace je k dispozici k volnému použití a stažení odtud:</string>
+    <string name="about_download_url">www.ibisek.com</string>
+
+
+</resources>
