@@ -29,6 +29,7 @@ public class MapViewActivity extends AppCompatActivity {
         setContentView(R.layout.activity_map_view);
 
         getSupportActionBar().setDisplayHomeAsUpEnabled(true); // enable BACK button
+        getSupportActionBar().setTitle(R.string.menu_adc_long);
 
         code = getIntent().getStringExtra("code");
 
@@ -75,10 +76,12 @@ public class MapViewActivity extends AppCompatActivity {
 
             case R.id.action_map_adc:
                 setImage(MapType.ADC);
+                getSupportActionBar().setTitle(R.string.menu_adc_long);
                 return true;
 
             case R.id.action_map_voc:
                 setImage(MapType.VOC);
+                getSupportActionBar().setTitle(R.string.menu_voc_long);
                 return true;
 
             default:

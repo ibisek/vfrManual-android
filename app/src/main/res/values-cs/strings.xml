@@ -5,11 +5,13 @@
     <string name="elev">Nadm. výška</string>
     <string name="circleAlt">Okruh</string>
 
-    <string name="menu_voc">VOC</string>
-    <string name="menu_adc">ADC</string>
-
     <string name="menu_delete_history">Smazat historii</string>
     <string name="menu_about">O aplikaci</string>
+
+    <string name="menu_adc">ADC</string>
+    <string name="menu_voc">VOC</string>
+    <string name="menu_adc_long">Plánek letiště</string>
+    <string name="menu_voc_long">Mapa okolí</string>
 
     <string name="about_intro1">Aplikace pro rychlou a jednoduchou orientaci pro přílet na cizí letiště. Informace o letištích jsou získány ze zdroje</string>
     <string name="about_intro_url">lis.rlp.cz/vfrmanual</string>
@@ -19,6 +21,8 @@
     <string name="about_version">Verze aplikace: 2018-03-20</string>
     <string name="about_download">Tato aplikace je k dispozici k volnému použití a stažení odtud:</string>
     <string name="about_download_url">www.ibisek.com</string>
+
+
 
 
 </resources>

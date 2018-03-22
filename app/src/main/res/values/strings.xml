@@ -5,11 +5,13 @@
     <string name="elev">Elevation</string>
     <string name="circleAlt">Circle Alt</string>
 
-    <string name="menu_voc">VOC</string>
-    <string name="menu_adc">ADC</string>
-
     <string name="menu_delete_history">Delete history</string>
     <string name="menu_about">About</string>
+
+    <string name="menu_adc">ADC</string>
+    <string name="menu_voc">VOC</string>
+    <string name="menu_adc_long">Airport situation</string>
+    <string name="menu_voc_long">Surroundings map</string>
 
     <string name="about_intro1">Application for quick and easy orientation when traveling to unknown or unfamiliar airfields. Offline available information is grabbed and updated from</string>
     <string name="about_intro_url">lis.rlp.cz/vfrmanual</string>
