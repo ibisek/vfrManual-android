@@ -31,11 +31,6 @@ public class DataRepository {
 
     private DataRepository(Context context) {
         this.context = context;
-
-        //TODO load all JSONS
-        //TODO parse
-        //TODO prepare for search
-
         loadJsonFiles();
     }
 
@@ -92,7 +87,10 @@ public class DataRepository {
 
         List<String> words = new ArrayList<>();
         for(AirportRecord rec : records) {
-            words.add(rec.nameAlias);
+            if(rec.nameAlias != null)
+                words.add(rec.nameAlias);
+            else if(rec.name != null)
+                words.add(rec.name);
             words.add(rec.code);
         }
 

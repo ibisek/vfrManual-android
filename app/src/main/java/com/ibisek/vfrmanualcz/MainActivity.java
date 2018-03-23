@@ -116,9 +116,11 @@ public class MainActivity extends AppCompatActivity {
             System.out.println("LIST ITEM CLICKED:" + position);
             AirportRecord rec = listItemAdapter.values.get(position);
 
-            Intent mapIntent = new Intent(MainActivity.this, MapViewActivity.class);
-            mapIntent.putExtra("code", rec.code);
-            startActivity(mapIntent);
+            if(rec.runways.size() > 0) {    // UL fields don't have any additional info
+                Intent mapIntent = new Intent(MainActivity.this, MapViewActivity.class);
+                mapIntent.putExtra("code", rec.code);
+                startActivity(mapIntent);
+            }
         }
     }
 
@@ -180,10 +182,21 @@ public class MainActivity extends AppCompatActivity {
                     callSign.setText(rec.frequencies.get(0).callSign);
                     code.setText(rec.code);
                     frequency.setText(rec.frequencies.get(0).freq);
-                    runway.setText(rec.runways.get(0).directions);
-                    runwayDim.setText(rec.runways.get(0).dimensions);
+                    if(rec.runways.size() > 0) {  // ULs dont' have it :|
+                        runway.setText(rec.runways.get(0).directions);
+                        runwayDim.setText(rec.runways.get(0).dimensions);
+                    } else {
+                        runway.setVisibility(View.GONE);
+                        runwayDim.setVisibility(View.GONE);
+                        listItemView.findViewById(R.id.rwyLabel).setVisibility(View.GONE);
+                    }
                     elevation.setText(String.format("%sm", rec.elevationMeters));
-                    circleAlt.setText(String.format("%sft", rec.circleAltFt));
+                    if(rec.circleAltFt > 0) {
+                        circleAlt.setText(String.format("%sft", rec.circleAltFt));
+                    } else {
+                        circleAlt.setVisibility(View.GONE);
+                        listItemView.findViewById(R.id.circleAltLabel).setVisibility(View.GONE);
+                    }
 
                     if(rec.runways.size() > 1) {
                         TextView runway2 = listItemView.findViewById(R.id.runway2);

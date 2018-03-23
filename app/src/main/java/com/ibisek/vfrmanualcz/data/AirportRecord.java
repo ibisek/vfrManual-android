@@ -29,7 +29,7 @@ public class AirportRecord {
         if(jsonString == null) return;
 
         JSONObject j = new JSONObject(jsonString);
-        name = j.getString("name");
+        if(j.has("name")) name = j.getString("name");   // some UL records don't have it
         code = j.getString("code");
 
         if(j.has("nameAlias")) {
@@ -62,14 +62,16 @@ public class AirportRecord {
             frequencies.add(f);
         }
 
-        arr = j.getJSONArray("rwy");
-        for(int i =0; i<arr.length(); i++) {
-            JSONArray arr2 = (JSONArray) arr.get(i);
-            String directions = arr2.getString(0);
-            String dimensions = arr2.getString(1);
+        if(j.has("rwy")) {  // UL records don't have it :|
+            arr = j.getJSONArray("rwy");
+            for (int i = 0; i < arr.length(); i++) {
+                JSONArray arr2 = (JSONArray) arr.get(i);
+                String directions = arr2.getString(0);
+                String dimensions = arr2.getString(1);
 
-            Runway r = new Runway(directions, dimensions);
-            runways.add(r);
+                Runway r = new Runway(directions, dimensions);
+                runways.add(r);
+            }
         }
     }
 
