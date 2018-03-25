@@ -4,11 +4,14 @@ import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.v4.view.MotionEventCompat;
 import android.support.v7.app.AppCompatActivity;
+import android.view.GestureDetector;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
+import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewGroup;
 import android.view.inputmethod.InputMethodManager;
@@ -31,6 +34,7 @@ public class MainActivity extends AppCompatActivity {
 
     private MyListItemAdapter listItemAdapter;
     private DataRepository dataRepository;
+    private GestureDetector gestureDetector;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -41,6 +45,8 @@ public class MainActivity extends AppCompatActivity {
 
         initSearchField();
         initListView();
+
+        gestureDetector = new GestureDetector(this, new Gesture());
     }
 
     private void initSearchField() {
@@ -117,8 +123,9 @@ public class MainActivity extends AppCompatActivity {
             AirportRecord rec = listItemAdapter.values.get(position);
 
             if(rec.runways.size() > 0) {    // UL fields don't have any additional info
-                Intent mapIntent = new Intent(MainActivity.this, MapViewActivity.class);
-                mapIntent.putExtra("code", rec.code);
+                //Intent mapIntent = new Intent(MainActivity.this, MapViewActivity.class);
+                Intent mapIntent = new Intent(MainActivity.this, SwipeActivity.class);
+                mapIntent.putExtra("airportCode", rec.code);
                 startActivity(mapIntent);
             }
         }
@@ -325,4 +332,24 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
+    @Override
+    public boolean dispatchTouchEvent(MotionEvent event) {
+//        return gestureDetector.onTouchEvent(event);
+        return super.dispatchTouchEvent(event);
+    }
+
+    class Gesture extends GestureDetector.SimpleOnGestureListener{
+
+        public boolean onFling(MotionEvent e1, MotionEvent e2, float velocityX, float velocityY) {
+            System.out.println("FLING");
+
+            if(e1.getX() > e2.getX()) {
+                System.out.println(" <<<--- ");
+            } else {
+                System.out.println(" --->>> ");
+            }
+
+            return false;
+        }
+    }
 }

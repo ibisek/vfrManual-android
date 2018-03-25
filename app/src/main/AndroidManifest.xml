@@ -16,7 +16,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
         <activity android:name=".MapViewActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
@@ -26,6 +25,15 @@
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".SwipeActivity"
+            android:label="@string/title_activity_swipe"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.ibisek.vfrmanualcz.MainActivity" />
         </activity>
     </application>
 

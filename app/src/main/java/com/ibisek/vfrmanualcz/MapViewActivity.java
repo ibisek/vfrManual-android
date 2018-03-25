@@ -4,11 +4,14 @@ import android.content.res.AssetManager;
 import android.graphics.drawable.Drawable;
 import android.net.Uri;
 import android.support.v4.app.NavUtils;
+import android.support.v4.view.MotionEventCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.GestureDetector;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
+import android.view.MotionEvent;
 
 import com.github.chrisbanes.photoview.PhotoView;
 
@@ -19,7 +22,6 @@ import java.io.InputStream;
 public class MapViewActivity extends AppCompatActivity {
 
     private enum MapType {ADC, VOC};
-
 
     private String code;    // airport code
 
@@ -87,5 +89,12 @@ public class MapViewActivity extends AppCompatActivity {
             default:
                 return super.onOptionsItemSelected(item);
         }
+    }
+
+    @Override
+    public boolean onTouchEvent(MotionEvent event) {
+        System.out.println("## EVENT: " + event);
+        //System.out.println("## str:" + MotionEvent.actionToString(event.getAction()));
+        return super.onTouchEvent(event);
     }
 }
