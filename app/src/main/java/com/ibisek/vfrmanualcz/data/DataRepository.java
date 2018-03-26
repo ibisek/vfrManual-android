@@ -106,4 +106,14 @@ public class DataRepository {
 
         return null;
     }
+
+    public AirportRecord findByCode(String code) {
+        if(code == null) return null;
+
+        for(AirportRecord rec : records)
+            if(code.equals(rec.code))
+                return rec;
+
+        return null;
+    }
 }

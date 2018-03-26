@@ -24,6 +24,8 @@ public class AirportRecord {
 
     public List<Frequency> frequencies = new ArrayList<>();
     public List<Runway> runways = new ArrayList<>();
+    public List<Contact> contacts = new ArrayList<>();
+    public List<String> procedures = new ArrayList<>();
 
     public AirportRecord(String jsonString) throws JSONException {
         if(jsonString == null) return;
@@ -71,6 +73,27 @@ public class AirportRecord {
 
                 Runway r = new Runway(directions, dimensions);
                 runways.add(r);
+            }
+        }
+
+        if(j.has("txt")) {
+            JSONObject j2 = j.getJSONObject("txt");
+            if(j2.has("cz")) {
+                JSONObject j3 = j2.getJSONObject("cz");
+                if(j3.has("proc")) {
+                    JSONArray procArr = j3.getJSONArray("proc");
+                    for (int i = 0; i < procArr.length(); i++) {
+                        procedures.add(procArr.getString(i));
+                    }
+                }
+
+                if(j3.has("contacts")) {
+                    arr = j3.getJSONArray("contacts");
+                    for (int i = 0; i < arr.length(); i++) {
+                        Contact c = new Contact(arr.getJSONObject(i));
+                        contacts.add(c);
+                    }
+                }
             }
         }
     }

@@ -21,7 +21,7 @@ public class SwipeActivity extends AppCompatActivity {
         setSupportActionBar(toolbar);
 
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-        getSupportActionBar().setTitle(R.string.menu_adc_long);   // ugly'n'dirty
+        getSupportActionBar().setTitle(R.string.swipescreen_title_adc);   // ugly'n'dirty
 
         String airportCode = getIntent().getStringExtra("airportCode");
 
@@ -44,13 +44,13 @@ public class SwipeActivity extends AppCompatActivity {
             toolbar.setTitle("POS: "+position);
             switch (position) {
                 case 0:
-                    toolbar.setTitle(R.string.menu_adc_long);
+                    toolbar.setTitle(R.string.swipescreen_title_adc);
                     break;
                 case 1:
-                    toolbar.setTitle(R.string.menu_voc_long);
+                    toolbar.setTitle(R.string.swipescreen_title_vor);
                     break;
                 case 2:
-                    toolbar.setTitle("TODO VOLE!");
+                    toolbar.setTitle(R.string.swipescreen_title_textinfo);
                     break;
                 default:
                     toolbar.setTitle("Sorry vole tape error!");
