@@ -20,6 +20,8 @@
     <string name="about_download_url">www.ibisek.com</string>
     <string name="about_github">Zdrojové kódy aplikace i skriptů pro zpracování dat jsou dostupné na</string>
     <string name="about_github_releases">Nové verze a updaty:</string>
+    <string name="about_paypal">Pokud chcete dostat VFR Manuál na Android PLAY storu, můžete mi přispět na pořízení vývojářského účtu:</string>
+    <string name="about_paypal_url">paypal.me/ibisek</string>
 
     <string name="swipescreen_title_adc">Plánek letiště</string>
     <string name="swipescreen_title_vor">Mapa okolí</string>
