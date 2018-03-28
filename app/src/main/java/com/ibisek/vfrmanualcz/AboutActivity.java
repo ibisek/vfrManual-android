@@ -24,12 +24,14 @@ public class AboutActivity extends AppCompatActivity {
         TextView url2 = findViewById(R.id.url2);
         TextView url3 = findViewById(R.id.url3);
         TextView url4 = findViewById(R.id.url4);
+        TextView url5 = findViewById(R.id.url5);
 
         MyOnClickListener ocl = new MyOnClickListener();
         url1.setOnClickListener(ocl);
         url2.setOnClickListener(ocl);
         url3.setOnClickListener(ocl);
         url4.setOnClickListener(ocl);
+        url5.setOnClickListener(ocl);
     }
 
     private class MyOnClickListener implements View.OnClickListener {
