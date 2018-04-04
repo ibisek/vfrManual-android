@@ -7,3 +7,6 @@ Aplikace pro android 4.1+ (API level 18+) pro zobrazení základních (ale snad 
 
 ## Releases
 Seznam dostupných releasů APK souborů ke stažení je [ZDE](https://github.com/ibisek/vfrManual-android/releases)
+
+## Google Play
+A už se nám to podařílo dostat i na PLAY store, dostupné je to na [ZDE](https://play.google.com/store/apps/details?id=com.ibisek.vfrmanualcz)
