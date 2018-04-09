@@ -210,8 +210,12 @@ public class MainActivity extends AppCompatActivity {
                     if(rec.circleAltFt > 0) {
                         circleAlt.setText(String.format("%sft", rec.circleAltFt));
                     } else {
-                        circleAlt.setVisibility(View.GONE);
-                        listItemView.findViewById(R.id.circleAltLabel).setVisibility(View.GONE);
+                        //circleAlt.setVisibility(View.GONE);
+                        //listItemView.findViewById(R.id.circleAltLabel).setVisibility(View.GONE);
+
+                        // calculate the circle altitude from elevation:
+                        double caRounded = Math.ceil((rec.elevationFt + 1000) / 10.0) * 10.0;
+                        circleAlt.setText(String.format("%.0fft", caRounded));
                     }
 
                     if(rec.runways.size() > 1) {
