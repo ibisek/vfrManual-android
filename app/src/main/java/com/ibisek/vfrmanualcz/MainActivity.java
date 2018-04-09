@@ -192,8 +192,8 @@ public class MainActivity extends AppCompatActivity {
                         callSign.setText(rec.frequencies.get(0).callSign);
                         frequency.setText(rec.frequencies.get(0).freq);
                     } else {    // some UL airfields use shared frequency:
-                        callSign.setText("RADIO");
-                        frequency.setText("125.830");   // 2018
+                        callSign.setText("");       // RADIO
+                        frequency.setText("?");     // 125.830 (CZ 2018)
                     }
 
                     if(rec.runways.size() > 0) {  // ULs dont' have it :|
