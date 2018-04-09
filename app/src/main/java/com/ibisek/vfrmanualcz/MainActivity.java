@@ -174,7 +174,7 @@ public class MainActivity extends AppCompatActivity {
             if (values != null && position < values.size()) {
                 AirportRecord rec = values.get(position);
 
-                if(rec.frequencies.size() == 1) {
+                if(rec.frequencies.size() <= 1) {   // some ULs don't have freq(!)
                     LayoutInflater inflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
                     listItemView = inflater.inflate(R.layout.fragment_list_item_single_freq, parent, false);
 
@@ -186,9 +186,16 @@ public class MainActivity extends AppCompatActivity {
                     TextView elevation = listItemView.findViewById(R.id.elevation);
                     TextView circleAlt = listItemView.findViewById(R.id.circleAlt);
 
-                    callSign.setText(rec.frequencies.get(0).callSign);
                     code.setText(rec.code);
-                    frequency.setText(rec.frequencies.get(0).freq);
+
+                    if(rec.frequencies.size() > 0) {
+                        callSign.setText(rec.frequencies.get(0).callSign);
+                        frequency.setText(rec.frequencies.get(0).freq);
+                    } else {    // some UL airfields use shared frequency:
+                        callSign.setText("RADIO");
+                        frequency.setText("125.830");   // 2018
+                    }
+
                     if(rec.runways.size() > 0) {  // ULs dont' have it :|
                         runway.setText(rec.runways.get(0).directions);
                         runwayDim.setText(rec.runways.get(0).dimensions);
@@ -197,7 +204,9 @@ public class MainActivity extends AppCompatActivity {
                         runwayDim.setVisibility(View.GONE);
                         listItemView.findViewById(R.id.rwyLabel).setVisibility(View.GONE);
                     }
+
                     elevation.setText(String.format("%sm", rec.elevationMeters));
+
                     if(rec.circleAltFt > 0) {
                         circleAlt.setText(String.format("%sft", rec.circleAltFt));
                     } else {

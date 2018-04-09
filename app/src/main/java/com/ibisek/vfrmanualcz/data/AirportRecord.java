@@ -54,14 +54,16 @@ public class AirportRecord {
             circleAltMeters = arr.getInt(1);
         }
 
-        arr = j.getJSONArray("freq");
-        for(int i =0; i<arr.length(); i++) {
-            JSONArray arr2 = (JSONArray) arr.get(i);
-            String callSign = arr2.getString(0);
-            String freq = arr2.getString(1);
+        if(j.has("freq")) {  // some UL records don't have it :|
+            arr = j.getJSONArray("freq");
+            for (int i = 0; i < arr.length(); i++) {
+                JSONArray arr2 = (JSONArray) arr.get(i);
+                String callSign = arr2.getString(0);
+                String freq = arr2.getString(1);
 
-            Frequency f = new Frequency(callSign, freq);
-            frequencies.add(f);
+                Frequency f = new Frequency(callSign, freq);
+                frequencies.add(f);
+            }
         }
 
         if(j.has("rwy")) {  // UL records don't have it :|
