@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "587294075501",
+    "firebase_url": "https://vfrmanual.firebaseio.com",
+    "project_id": "vfrmanual",
+    "storage_bucket": "vfrmanual.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:587294075501:android:03f5a306621fe0a9",
+        "android_client_info": {
+          "package_name": "com.ibisek.vfrmanualcz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "587294075501-vcpo7u0q8n44rlj47odosrv0dec6pn5e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBk-Z-x0voetVdF6CdAK2NPmg-KIfpuJ44"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

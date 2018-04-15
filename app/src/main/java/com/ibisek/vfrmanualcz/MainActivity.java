@@ -21,11 +21,13 @@ import android.widget.AutoCompleteTextView;
 import android.widget.ListView;
 import android.widget.TextView;
 
+import com.crashlytics.android.Crashlytics;
 import com.ibisek.vfrmanualcz.config.Configuration;
 import com.ibisek.vfrmanualcz.data.AirportRecord;
 import com.ibisek.vfrmanualcz.data.DataRepository;
 import com.ibisek.vfrmanualcz.data.Frequency;
 
+import io.fabric.sdk.android.Fabric;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -39,6 +41,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        Fabric.with(this, new Crashlytics());
         setContentView(R.layout.activity_main);
 
         dataRepository = DataRepository.getInstance(MainActivity.this);

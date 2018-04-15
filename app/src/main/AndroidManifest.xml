@@ -30,6 +30,10 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.ibisek.vfrmanualcz.MainActivity" />
         </activity>
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="281814f5bf163ee23749a50d9f79846102e77836" />
     </application>
 
+    <uses-permission android:name="android.permission.INTERNET" />
 </manifest>
