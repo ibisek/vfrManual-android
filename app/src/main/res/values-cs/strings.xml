@@ -16,7 +16,9 @@
     <string name="about_intro1">Aplikace pro rychlou a jednoduchou orientaci pro přílet na cizí letiště. Informace o letištích jsou získány ze zdroje</string>
     <string name="about_intro_url">lis.rlp.cz/vfrmanual</string>
     <string name="about_intro2">a zpracovány pro offline použití. Platnost dat od:</string>
+    <string name="data_valid_from">2018-04-26</string>
     <string name="about_author">Autor: Ibišek</string>
+    <string name="about_version">Application version: 2018-04-15</string>
     <string name="about_download_url">www.ibisek.com</string>
     <string name="about_github">Zdrojové kódy aplikace i skriptů pro zpracování dat jsou dostupné na</string>
     <string name="about_github_releases">Nové verze a aktualizace:</string>
@@ -29,8 +31,6 @@
 
     <string name="textinfo_procedures">Postupy</string>
     <string name="textinfo_contacts">Kontakty</string>
-    <string name="data_valid_from">2018-04-03</string>
-    <string name="about_version">Application version: 2018-03-28</string>
     <string name="about_github_url">github.com/ibisek/vfrManual-android</string>
     <string name="about_github_releases_url">github.com/ibisek/vfrManual-android/releases</string>
     <string name="title_activity_swipe">SwipeActivity</string>
