@@ -1,1 +1,1 @@
-{"elev":[614,187],"alias":"STRAZNICE","name":"STRAZNICE","code":"LKSTRZ","freq":[["RADIO","125,830"]],"coords":[48.88778,17.29444],"rwy":[["05-23","750x36"],["15-33","525x20"]]}
+{"coords":["48.88778","17.29444"],"freq":[["STRAZNICE RADIO","125.830"]],"elev":[614,187],"name":"STRAZNICE","rwy":[["05-23","750x36"],["15-33","525x20"]],"alias":"STRAZNICE","code":"LKSTRZ"}

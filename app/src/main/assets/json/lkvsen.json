@@ -1,1 +1,1 @@
-{"elev":[820,249],"alias":"VSEN","name":"VSEN","code":"LKVSEN","freq":[["RADIO","125,830"]],"coords":[50.55528,15.09389],"rwy":[["13-31","450x30"]]}
+{"coords":["50.55528","15.09389"],"freq":[["VSEN RADIO","125.830"]],"elev":[820,249],"name":"VSEN","rwy":[["13-31","450x30"]],"alias":"VSEN","code":"LKVSEN"}
