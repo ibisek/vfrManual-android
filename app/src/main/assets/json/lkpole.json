@@ -1,1 +1,1 @@
-{"freq":[["RADIO","125,830"]],"code":"LKPOLE","elev":[696,212],"coords":[50.52063,14.27234]}
+{"elev":[696,212],"alias":"POLEPY","name":"POLEPY","code":"LKPOLE","freq":[["RADIO","125,830"]],"coords":[50.52063,14.27234],"rwy":[["06-24","320x33"],["01-19","605x33"]]}
