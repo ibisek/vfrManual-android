@@ -122,7 +122,7 @@ public class MainActivity extends AppCompatActivity {
             System.out.println("LIST ITEM CLICKED:" + position);
             AirportRecord rec = listItemAdapter.values.get(position);
 
-            if(rec.runways.size() > 0) {    // UL fields don't have any additional info
+            if(rec.contacts.size() > 0) {    // UL fields don't have any additional info.. (!YET!) //TODO WILL HAVE SOON!!
                 //Intent mapIntent = new Intent(MainActivity.this, MapViewActivity.class);
                 Intent mapIntent = new Intent(MainActivity.this, SwipeActivity.class);
                 mapIntent.putExtra("airportCode", rec.code);
