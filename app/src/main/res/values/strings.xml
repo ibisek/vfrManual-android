@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">VFR Manual CZ</string>
+    <string name="app_name">VFR Manual</string>
     <string name="rwy">RWY</string>
     <string name="freq">FREQ</string>
     <string name="elev">Elevation</string>
