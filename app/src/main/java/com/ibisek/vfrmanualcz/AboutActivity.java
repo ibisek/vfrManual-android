@@ -18,14 +18,18 @@ public class AboutActivity extends AppCompatActivity {
 
         getSupportActionBar().setDisplayHomeAsUpEnabled(true); // enable BACK button
 
-        TextView url1 = findViewById(R.id.url1a);
+        TextView url1a = findViewById(R.id.url1a);
+        TextView url1b = findViewById(R.id.url1b);
+        TextView url1c = findViewById(R.id.url1c);
         TextView url2 = findViewById(R.id.url2);
         TextView url3 = findViewById(R.id.url3);
         TextView url4 = findViewById(R.id.url4);
         TextView url5 = findViewById(R.id.url5);
 
         MyOnClickListener ocl = new MyOnClickListener();
-        url1.setOnClickListener(ocl);
+        url1a.setOnClickListener(ocl);
+        url1b.setOnClickListener(ocl);
+        url1c.setOnClickListener(ocl);
         url2.setOnClickListener(ocl);
         url3.setOnClickListener(ocl);
         url4.setOnClickListener(ocl);
