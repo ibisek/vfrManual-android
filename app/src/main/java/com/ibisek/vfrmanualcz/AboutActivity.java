@@ -9,8 +9,6 @@ import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import org.w3c.dom.Text;
-
 public class AboutActivity extends AppCompatActivity {
 
     @Override
@@ -20,7 +18,7 @@ public class AboutActivity extends AppCompatActivity {
 
         getSupportActionBar().setDisplayHomeAsUpEnabled(true); // enable BACK button
 
-        TextView url1 = findViewById(R.id.url1);
+        TextView url1 = findViewById(R.id.url1a);
         TextView url2 = findViewById(R.id.url2);
         TextView url3 = findViewById(R.id.url3);
         TextView url4 = findViewById(R.id.url4);
