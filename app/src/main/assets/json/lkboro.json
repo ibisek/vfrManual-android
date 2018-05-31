@@ -1,1 +1,1 @@
-{"coords":["49.35861","16.24222"],"freq":[["BOROVNIK RADIO","125.830"]],"elev":[1804,549],"name":"BOROVNIK","rwy":[["12L-30R","450x50"],["12R-30L","400x25"],["03-21","560x12"]],"alias":"BOROVNIK","code":"LKBORO"}
+{"name":"BOROVNIK","elev":[1804,549],"rwy":[["12L-30R","450x50"],["12R-30L","400x25"],["03-21","560x12"]],"alias":"BOROVNIK","freq":[["RADIO","125,830"]],"coords":[49.35861,16.24222],"code":"LKBORO"}

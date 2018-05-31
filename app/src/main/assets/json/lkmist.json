@@ -1,1 +1,1 @@
-{"coords":["49.65278","18.34583"],"freq":[["MISTEK RADIO","122.590"]],"elev":[1066,324],"name":"MISTEK","rwy":[["05-23","400x40"],["16-34","490x50"]],"alias":"MISTEK","code":"LKMIST"}
+{"name":"MISTEK","elev":[1066,324],"rwy":[["05-23","400x40"],["16-34","490x50"]],"alias":"MISTEK","freq":[["RADIO","122,590"]],"coords":[49.65278,18.34583],"code":"LKMIST"}

@@ -1,1 +1,1 @@
-{"coords":["49.40944","15.14417"],"freq":[["CASTKOVICE RADIO","120.330"]],"elev":[1926,587],"name":"CASTKOVICE","rwy":[["10-28","500x15"]],"alias":"CASTKOVICE","code":"LKCAST"}
+{"name":"CASTKOVICE","elev":[1926,587],"rwy":[["10-28","500x15"]],"alias":"CASTKOVICE","freq":[["RADIO","120,330"]],"coords":[49.40944,15.14417],"code":"LKCAST"}

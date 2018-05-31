@@ -1,1 +1,1 @@
-{"coords":["49.67490","13.09943"],"freq":[["LOCHOUSICE RADIO","125.830"]],"elev":[1289,392],"name":"LOCHOUSICE","rwy":[["10-28","600x25"]],"alias":"LOCHOUSICE","code":"LKLOCH"}
+{"name":"LOCHOUSICE","elev":[1289,392],"rwy":[["10-28","600x25"]],"alias":"LOCHOUSICE","freq":[["RADIO","125,830"]],"coords":[49.6749,13.09943],"code":"LKLOCH"}

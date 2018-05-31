@@ -1,1 +1,1 @@
-{"coords":["50.43389","15.53056"],"freq":[["CHOTEC RADIO","125.830"]],"elev":[1076,327],"name":"CHOTEC","rwy":[["09-23","600x30"]],"alias":"CHOTEC","code":"LKCHOT"}
+{"name":"CHOTEC","elev":[1076,327],"rwy":[["09-23","600x30"]],"alias":"CHOTEC","freq":[["RADIO","125,830"]],"coords":[50.43389,15.53056],"code":"LKCHOT"}

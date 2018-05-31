@@ -1,1 +1,1 @@
-{"coords":["49.19833","15.90306"],"freq":[["TREBIC RADIO","125.830"]],"elev":[1588,484],"name":"TREBIC","rwy":[["11-29","450x30"]],"alias":"TREBIC","code":"LKTREB"}
+{"name":"TREBIC","elev":[1588,484],"rwy":[["11-29","450x30"]],"alias":"TREBIC","freq":[["RADIO","125,830"]],"coords":[49.19833,15.90306],"code":"LKTREB"}

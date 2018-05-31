@@ -1,1 +1,1 @@
-{"coords":["49.84556","17.13806"],"freq":[["SUMVALD RADIO","125.830"]],"elev":[902,274],"name":"SUMVALD","rwy":[["05-23","450x25"]],"alias":"SUMVALD","code":"LKSUMV"}
+{"name":"SUMVALD","elev":[902,274],"rwy":[["05-23","450x25"]],"alias":"SUMVALD","freq":[["RADIO","125,830"]],"coords":[49.84556,17.13806],"code":"LKSUMV"}

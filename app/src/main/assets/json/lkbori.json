@@ -1,1 +1,1 @@
-{"coords":["49.43611","16.59417"],"freq":[["BORITOV RADIO","125.830"]],"elev":[1247,380],"name":"BORITOV","rwy":[["02-20","850x20"]],"alias":"BORITOV","code":"LKBORI"}
+{"name":"BORITOV","elev":[1247,380],"rwy":[["02-20","850x20"]],"alias":"BORITOV","freq":[["RADIO","125,830"]],"coords":[49.43611,16.59417],"code":"LKBORI"}
