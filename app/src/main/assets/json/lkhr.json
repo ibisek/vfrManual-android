@@ -1,1 +1,1 @@
-{"name":"HRADCANY","elev":[912,277],"rwy":[["09R-27L","900x20"],["09L-27R","900x60"]],"alias":"HRADCANY","freq":[["HRADCANY RADIO","134.815"]],"coords":["50.61944","14.73278"],"code":"LKHR"}
+{"elev":[912,277],"alias":"HRADCANY","name":"HRADCANY","code":"LKHR","freq":[["HRADCANY RADIO","134.815"]],"coords":["50.61944","14.73278"],"rwy":[["09R-27L","900x20"],["09L-27R","900x60"]]}

@@ -1,1 +1,1 @@
-{"coords":["49.02667","21.30500"],"freq":[["TOWER","135.500"],["TOWER","134.325"]],"elev":[1032,314],"name":"PRESOV","alias":"PRESOV","rwy":[["05-23","800x40"]],"code":"LZPW"}
+{"code":"LZPW","elev":[1032,314],"rwy":[["05-23","800x40"]],"coords":["49.02667","21.30500"],"name":"PRESOV","alias":"PRESOV","freq":[["TOWER","135.500"],["TOWER","134.325"]]}

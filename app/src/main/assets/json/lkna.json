@@ -1,1 +1,1 @@
-{"name":"NAMEST","elev":[1547,471],"rwy":[["13-31","2400x45"]],"alias":"NAMEST","freq":[["APPROACH/RADAR","118.155"],["TOWER","126.505"]],"coords":["49.16621","16.12438"],"code":"LKNA"}
+{"elev":[1547,471],"alias":"NAMEST","name":"NAMEST","code":"LKNA","freq":[["NAMEST APPROACH/RADAR","118.155"],["NAMEST TOWER","126.505"]],"coords":["49.16621","16.12438"],"rwy":[["13-31","2400x45"]]}
