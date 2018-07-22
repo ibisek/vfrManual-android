@@ -144,6 +144,9 @@ public class MainActivity extends AppCompatActivity {
 
             AirportRecord rec = dataRepository.findByCodeOrAlias(searchStr);
             listItemAdapter.addValueToBeginning(rec);
+
+            // clear the text in the searchField:
+            searchField.setText("");
         }
 
         @Override
