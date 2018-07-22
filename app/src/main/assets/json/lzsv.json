@@ -1,1 +1,1 @@
-{"code":"LZSV","elev":[1624,494],"rwy":[["12L-30R","1362x40"],["12R-30L","1362x30"]],"coords":["48.94056","20.53361"],"name":"SPISSKA NOVA VES","alias":"SPISSKA NOVA VES","freq":[["SPISSKA NOVA VES TRAFFIC","123.500"]]}
+{"name":"SPISSKA NOVA VES","freq":[["SPISSKA NOVA VES TRAFFIC","123.500"]],"rwy":[["12L-30R","1362x40"],["12R-30L","1362x30"]],"coords":["48.94056","20.53361"],"alias":"SPISSKA NOVA VES","elev":[1624,494],"code":"LZSV"}

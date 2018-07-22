@@ -1,1 +1,1 @@
-{"elev":[939,286],"alias":"KBELY","name":"KBELY","code":"LKKB","freq":[["KBELY APPROACH/RADAR","124.680"],["KBELY TOWER","120.880"]],"coords":["50.12137","14.54364"],"rwy":[["06-24","2000x49"]]}
+{"code":"LKKB","elev":[939,286],"name":"KBELY","rwy":[["06-24","2000x49"]],"coords":["50.12137","14.54364"],"alias":"KBELY","freq":[["APPROACH/RADAR","124.680"],["TOWER","120.880"]]}

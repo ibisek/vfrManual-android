@@ -1,1 +1,1 @@
-{"elev":[794,242],"alias":"CASLAV","name":"CASLAV","code":"LKCV","freq":[["CASLAV APPROACH/RADAR","130.280"],["CASLAV TOWER","134.205"]],"coords":["49.93956","15.38193"],"rwy":[["13-31","2400x60"],["12-30","1360x40"]]}
+{"code":"LKCV","elev":[794,242],"name":"CASLAV","rwy":[["13-31","2400x60"],["12-30","1360x40"]],"coords":["49.93956","15.38193"],"alias":"CASLAV","freq":[["APPROACH/RADAR","130.280"],["TOWER","134.205"]]}

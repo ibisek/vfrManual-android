@@ -1,1 +1,1 @@
-{"code":"LZSE","elev":[620,188],"rwy":[["12L-30R","1080x30"],["12R-30L","1080x60"]],"coords":["48.65778","17.32972"],"name":"SENICA","alias":"SENICA","freq":[["SENICA TRAFFIC","123.600"]]}
+{"name":"SENICA","freq":[["SENICA TRAFFIC","123.605"]],"rwy":[["12L-30R","1080x30"],["12R-30L","1080x60"]],"coords":["48.65778","17.32972"],"alias":"SENICA","elev":[620,188],"code":"LZSE"}

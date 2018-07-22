@@ -1,1 +1,1 @@
-{"code":"LZPE","elev":[853,259],"rwy":[["04L-22R","940x85"],["04R-22L","940x30"]],"coords":["48.76611","18.58667"],"name":"PRIEVIDZA","alias":"PRIEVIDZA","freq":[["PRIEVIDZA TRAFFIC","123.055"]]}
+{"name":"PRIEVIDZA","freq":[["PRIEVIDZA TRAFFIC","123.055"]],"rwy":[["04L-22R","940x85"],["04R-22L","940x30"]],"coords":["48.76611","18.58667"],"alias":"PRIEVIDZA","elev":[853,259],"code":"LZPE"}
