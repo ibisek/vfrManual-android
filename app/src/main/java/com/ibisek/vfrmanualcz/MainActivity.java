@@ -104,6 +104,11 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(mapIntent);
                 return true;
 
+            case R.id.action_show_other:
+                mapIntent = new Intent(MainActivity.this, OtherActivity.class);
+                startActivity(mapIntent);
+                return true;
+
             case R.id.action_delete_history:
                 listItemAdapter.values.clear();
                 listItemAdapter.notifyDataSetChanged();

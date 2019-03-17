@@ -6,6 +6,7 @@
     <string name="circleAlt">Okruh</string>
 
     <string name="menu_delete_history">Smazat historii</string>
+    <string name="menu_other">Další informace</string>
     <string name="menu_about">O aplikaci</string>
 
     <!--<string name="menu_adc">ADC</string>-->
@@ -18,7 +19,7 @@
     <string name="about_intro_url2">openflightmaps.org</string>
     <string name="about_intro_url3">aerobaze.cz/gps</string>
     <string name="about_intro2">a zpracovány pro offline použití. Platnost dat od:</string>
-    <string name="data_valid_from">2018-07-19</string>
+    <string name="data_valid_from">2019-03-28</string>
     <string name="about_author">Autor: Ibišek</string>
     <string name="about_version">Verze aplikace: 2018-07-22</string>
     <string name="about_download_url">www.ibisek.com</string>
@@ -36,5 +37,10 @@
     <string name="about_github_url">github.com/ibisek/vfrManual-android</string>
     <string name="about_github_releases_url">github.com/ibisek/vfrManual-android/releases</string>
     <string name="title_activity_swipe">SwipeActivity</string>
+
+    <string name="other_text1_left_column">Praha information ZÁPAD\nPraha Information VÝCHOD\nPraha Information Morava</string>
+    <string name="other_text1_right_column">126,100\n136,175\n136,275</string>
+    <string name="other_text2_left_column">Brno ATIS\nOstrava ATIS\nPrague ATIS\nKarlovy Vary ATIS</string>
+    <string name="other_text2_right_column">131,105\n118,055\n122,160\n118,955</string>
 
 </resources>
