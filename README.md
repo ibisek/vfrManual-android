@@ -18,3 +18,8 @@ All data is sourced from the following sites:
 * [VFR Manuál ŘLP CZ](http://lis.rlp.cz/vfrmanual/)
 * [Databáze letišť](http://www.aerobaze.cz/gps/)
 * [openflightmaps.org](https://openflightmaps.org/live/)
+
+## TODO 
+* oddelit data od aplikace
+* automaticke aktualizace dat (e.g. CRONem)
+* dotaz z aplikace na github-repo, zda jsou k dispozici aktualizace, stahovat (idealne) jen zmenene soubory
