@@ -20,6 +20,7 @@ All data is sourced from the following sites:
 * [openflightmaps.org](https://openflightmaps.org/live/)
 
 ## TODO 
+* seznam nejblizsich letist podle aktualni polohy
 * oddelit data od aplikace
 * automaticke aktualizace dat (e.g. CRONem)
 * dotaz z aplikace na github-repo, zda jsou k dispozici aktualizace, stahovat (idealne) jen zmenene soubory
