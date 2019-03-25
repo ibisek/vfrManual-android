@@ -18,9 +18,11 @@ All data is sourced from the following sites:
 * [VFR Manuál ŘLP CZ](http://lis.rlp.cz/vfrmanual/)
 * [Databáze letišť](http://www.aerobaze.cz/gps/)
 * [openflightmaps.org](https://openflightmaps.org/live/)
+* [Letecká informačná služba Slovenskej republiky](https://aim.lps.sk/web/)
 
 ## TODO 
 * seznam nejblizsich letist podle aktualni polohy
 * automaticke aktualizace dat (e.g. CRONem)
 * oddelit data od aplikace
 * dotaz z aplikace na github-repo, zda jsou k dispozici aktualizace, stahovat (idealne) jen zmenene soubory
+* ..
