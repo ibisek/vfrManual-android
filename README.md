@@ -14,10 +14,10 @@ Seznam dostupných releasů APK souborů ke stažení je [ZDE](https://github.co
 Už se nám to podařílo dostat i na PLAY store, dostupné je to [ZDE](https://play.google.com/store/apps/details?id=com.ibisek.vfrmanualcz)
 
 ## Data Resources
-All data is sourced from the following sites:
+All data is sourced from the following sites with priority in this order:
 * [VFR Manuál ŘLP CZ](http://lis.rlp.cz/vfrmanual/)
-* [Databáze letišť](http://www.aerobaze.cz/gps/)
 * [openflightmaps.org](https://openflightmaps.org/live/)
+* [Databáze letišť](http://www.aerobaze.cz/gps/)
 * [Letecká informačná služba Slovenskej republiky](https://aim.lps.sk/web/)
 
 ## TODO 
