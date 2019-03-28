@@ -8,12 +8,12 @@ Application for Android 4.1+ (API level 18+) to have basic information about air
 <img src="https://raw.githubusercontent.com/ibisek/vfrManual-android/master/propaganda/vfr-manual1-small.png" width="250" height="444"/>&nbsp;&nbsp;<img src="https://raw.githubusercontent.com/ibisek/vfrManual-android/master/propaganda/vfr-manual2-small.png" width="250" height="444"/>&nbsp;&nbsp;<img src="https://raw.githubusercontent.com/ibisek/vfrManual-android/master/propaganda/vfr-manual3-small.png" width="250" height="444"/>
 
 ## Releases
-Seznam dostupných releasů APK souborů ke stažení je [ZDE](https://github.com/ibisek/vfrManual-android/releases)
+Seznam dostupných releasů APK souborů ke stažení je [ZDE](https://github.com/ibisek/vfrManual-android/releases).
 
-List of available releases of APK files for download is available right [HERE](https://github.com/ibisek/vfrManual-android/releases)
+List of available releases of APK files for download is available right [HERE](https://github.com/ibisek/vfrManual-android/releases).
 
 ## Google Play
-Na PLAY store je aplikace dostupná [TUNA](https://play.google.com/store/apps/details?id=com.ibisek.vfrmanualcz)
+Na PLAY store je aplikace dostupná [TUNA](https://play.google.com/store/apps/details?id=com.ibisek.vfrmanualcz).
 
 Installation from the app store can be done through [THIS](https://play.google.com/store/apps/details?id=com.ibisek.vfrmanualcz) link.
 
