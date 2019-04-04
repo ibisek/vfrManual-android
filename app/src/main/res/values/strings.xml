@@ -22,7 +22,7 @@
     <string name="about_intro2">and post-processed for seamless use. Data is valid from:</string>
     <string name="data_valid_from">2019-03-28</string>
     <string name="about_author">Author: Ibišek</string>
-    <string name="about_version">Application version: 2018-07-22</string>
+    <string name="about_version">Application version: 2019-04-04</string>
     <string name="about_download_url">www.ibisek.com</string>
     <string name="about_github">Source code of the app as well as data acquisition scripts are available on</string>
     <string name="about_github_url">github.com/ibisek/vfrManual-android</string>
@@ -48,9 +48,9 @@
 
     <string name="nearest_title">Nearest landables</string>
 
-    <string name="gps_settings_title">GPS_TITLE</string>
-    <string name="gps_settings_dlg_text">GPS_TEXT</string>
-    <string name="btn_setting">SETTINGS</string>
-    <string name="btn_cancel">CANCEL</string>
+    <string name="gps_settings_title">GPS_TITLE_EN</string>
+    <string name="gps_settings_dlg_text">GPS_TEXT_EN</string>
+    <string name="btn_setting">Configure</string>
+    <string name="btn_cancel">Cancel</string>
 
 </resources>
