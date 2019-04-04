@@ -5,8 +5,9 @@
     <string name="elev">Nadm. výška</string>
     <string name="circleAlt">Okruh</string>
 
-    <string name="menu_delete_history">Smazat historii</string>
+    <string name="menu_show_nearest">Show nearest</string>
     <string name="menu_other">Další informace</string>
+    <string name="menu_delete_history">Smazat historii</string>
     <string name="menu_about">O aplikaci</string>
 
     <!--<string name="menu_adc">ADC</string>-->
@@ -42,5 +43,7 @@
     <string name="other_text1_right_column">126,100\n136,175\n136,275</string>
     <string name="other_text2_left_column">Brno ATIS\nOstrava ATIS\nPrague ATIS\nKarlovy Vary ATIS</string>
     <string name="other_text2_right_column">131,105\n118,055\n122,160\n118,955</string>
+
+    <string name="nearest_title">Nejbližší plochy</string>
 
 </resources>

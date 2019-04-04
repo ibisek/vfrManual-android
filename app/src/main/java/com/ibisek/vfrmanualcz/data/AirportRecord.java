@@ -1,5 +1,7 @@
 package com.ibisek.vfrmanualcz.data;
 
+import com.ibisek.outlanded.navigation.gps.GpsMath;
+
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -16,7 +18,7 @@ public class AirportRecord {
     public String name;
     public String code;
     public String nameAlias;
-    public double latitude, longitude;
+    public double latitude, longitude, latitudeRad, longitudeRad;
     public int elevationFt;
     public int elevationMeters;
     public int circleAltFt;
@@ -26,6 +28,8 @@ public class AirportRecord {
     public List<Runway> runways = new ArrayList<>();
     public List<Contact> contacts = new ArrayList<>();
     public List<String> procedures = new ArrayList<>();
+
+    public double distance = Double.MAX_VALUE;  // [m] last calculated distance to a point
 
     public AirportRecord(String jsonString) throws JSONException {
         if(jsonString == null) return;
@@ -43,6 +47,8 @@ public class AirportRecord {
         JSONArray arr = j.getJSONArray("coords");
         latitude = arr.getDouble(0);
         longitude = arr.getDouble(1);
+        latitudeRad = Math.toRadians(latitude);
+        longitudeRad = Math.toRadians(longitude);
 
         arr = j.getJSONArray("elev");
         elevationFt = arr.getInt(0);
@@ -101,9 +107,28 @@ public class AirportRecord {
     }
 
     public String toString() {
-        //TODO
+//        public String name;
+//        public String code;
+//        public String nameAlias;
+//        public double latitude, longitude;
+//        public int elevationFt;
+//        public int elevationMeters;
+//        public int circleAltFt;
+//        public int circleAltMeters;
 
-        return "TODO";
+        StringBuilder sb = new StringBuilder("#");
+        sb.append(AirportRecord.class.getName());
+        sb.append(":\n code:");
+        sb.append(code);
+        sb.append("\n name:");
+        sb.append(name);
+        sb.append("\n lat:"); sb.append(latitude); sb.append("; lon:"); sb.append(longitude);
+        sb.append("\n elevation :"); sb.append(elevationMeters); sb.append("m; "); sb.append(elevationFt); sb.append("ft");
+        sb.append("\n circle :"); sb.append(circleAltMeters); sb.append("m; "); sb.append(circleAltFt); sb.append("ft");
+        sb.append("\n dist:");
+        sb.append(distance);
+
+        return sb.toString();
     }
 
     private String listToStr(List<String> list) {
@@ -118,6 +143,14 @@ public class AirportRecord {
         }
 
         return sb.toString();
+    }
+
+    /**
+     * @param latitude [rad]
+     * @param longitude [rad]
+     */
+    public void calcDistance(double latitude, double longitude) {
+        distance = GpsMath.getDistanceInKm(this.latitudeRad, this.longitudeRad, latitude, longitude);
     }
 
 //    public String getFreqAsStr() {

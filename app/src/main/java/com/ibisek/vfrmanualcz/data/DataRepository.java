@@ -9,6 +9,8 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
 import java.util.List;
 
 /**
@@ -115,5 +117,24 @@ public class DataRepository {
                 return rec;
 
         return null;
+    }
+
+    public List<AirportRecord> findNearest(double latitude, double longitude, int n) {
+        List<AirportRecord> list = new ArrayList<>();
+
+        for(AirportRecord rec : records)
+            rec.calcDistance(latitude, longitude);
+
+        Collections.sort(records, new DistanceComparator());
+
+        return records.subList(0, n);
+    }
+
+    private class DistanceComparator implements Comparator<AirportRecord> {
+
+        public int compare(AirportRecord a, AirportRecord b) {
+            return (int)(a.distance - b.distance);
+        }
+
     }
 }

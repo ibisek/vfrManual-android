@@ -22,8 +22,8 @@ public class Configuration {
     private static final String CONFIGURATION_FILENAME = "configuration.bin";
 
     // last recently used contacts:
-    private static String LRU_SEARCH_RESULTS = "lruContacts";
-    private static int LRU_LIST_MAX_LEN = 10;
+    public final static String LRU_SEARCH_RESULTS = "lruContacts";
+    public final static int LRU_LIST_MAX_LEN = 10;
 
     private static Configuration instance;
 

@@ -5,8 +5,9 @@
     <string name="elev">Elevation</string>
     <string name="circleAlt">Circle Alt</string>
 
-    <string name="menu_delete_history">Delete history</string>
+    <string name="menu_show_nearest">Show nearest</string>
     <string name="menu_other">Additional information</string>
+    <string name="menu_delete_history">Delete history</string>
     <string name="menu_about">About</string>
 
     <!--<string name="menu_adc">ADC</string>-->
@@ -44,5 +45,12 @@
     <string name="other_text1_right_column">126.100\n136.175\n136.275</string>
     <string name="other_text2_left_column">Brno ATIS\nOstrava ATIS\nPrague ATIS\nKarlovy Vary ATIS</string>
     <string name="other_text2_right_column">131.105\n118.055\n122.160\n118,955</string>
+
+    <string name="nearest_title">Nearest landables</string>
+
+    <string name="gps_settings_title">GPS_TITLE</string>
+    <string name="gps_settings_dlg_text">GPS_TEXT</string>
+    <string name="btn_setting">SETTINGS</string>
+    <string name="btn_cancel">CANCEL</string>
 
 </resources>
