@@ -1,16 +1,21 @@
 package com.ibisek.vfrmanualcz;
 
 import android.Manifest;
+import android.app.AlertDialog;
 import android.content.Context;
+import android.content.DialogInterface;
+import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.location.Location;
 import android.location.LocationListener;
 import android.location.LocationManager;
 import android.os.Bundle;
+import android.provider.Settings;
 import android.support.v4.app.ActivityCompat;
 import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.widget.ListView;
+import android.widget.Toast;
 
 import com.ibisek.vfrmanualcz.config.Configuration;
 import com.ibisek.vfrmanualcz.data.AirportRecord;
@@ -21,8 +26,8 @@ import java.util.List;
 public class NearestActivity extends AppCompatActivity implements LocationListener {
 
     static public final int REQUEST_LOCATION = 1;
-    static public final int GPS_UPDATE_MIN_TIME = 1000; // [ms]
-    static public final int GPS_UPDATE_MIN_DIST = 1; // [m]
+    static public final int GPS_UPDATE_MIN_TIME = 10000; // [ms]
+    static public final int GPS_UPDATE_MIN_DIST = 10; // [m]
 
     private LocationManager locationManager;
     private AirportListItemAdapter listItemAdapter;
@@ -51,9 +56,38 @@ public class NearestActivity extends AppCompatActivity implements LocationListen
 
         if (ContextCompat.checkSelfPermission(getApplicationContext(), Manifest.permission.ACCESS_FINE_LOCATION ) != PackageManager.PERMISSION_GRANTED )
             ActivityCompat.requestPermissions(this, new String[] {android.Manifest.permission.ACCESS_FINE_LOCATION}, REQUEST_LOCATION);
+        if (ContextCompat.checkSelfPermission(getApplicationContext(), Manifest.permission.ACCESS_FINE_LOCATION ) != PackageManager.PERMISSION_GRANTED ) {
+            // we cannot do much without GPS -> go back to main screen
+            Intent intent = new Intent(NearestActivity.this, MainActivity.class);
+            startActivity(intent);
+        }
 
         locationManager = (LocationManager) getSystemService(Context.LOCATION_SERVICE);
         locationManager.requestLocationUpdates(LocationManager.GPS_PROVIDER, GPS_UPDATE_MIN_TIME, GPS_UPDATE_MIN_DIST, this);
+
+        boolean gpsEnabled = checkGpsEnabled();
+
+        if(gpsEnabled) {
+            Toast toast = Toast.makeText(this, R.string.nearest_welcome_toast, Toast.LENGTH_LONG);
+            toast.show();
+        }
+    }
+
+    private boolean checkGpsEnabled() {
+        boolean gpsEnabled = locationManager.isProviderEnabled(LocationManager.GPS_PROVIDER);
+        if(!gpsEnabled)
+            new AlertDialog.Builder(this)
+                    .setMessage(R.string.gps_settings_text)
+                    .setPositiveButton(R.string.btn_enable, new DialogInterface.OnClickListener() {
+                        @Override
+                        public void onClick(DialogInterface paramDialogInterface, int paramInt) {
+                            NearestActivity.this.startActivity(new Intent(Settings.ACTION_LOCATION_SOURCE_SETTINGS));
+                        }
+                    })
+                    .setNegativeButton(R.string.btn_cancel,null)
+                    .show();
+
+        return gpsEnabled;
     }
 
     protected void onPause() {
@@ -72,27 +106,26 @@ public class NearestActivity extends AppCompatActivity implements LocationListen
 //        double lon = Math.toRadians(16.1097653);
 
         List<AirportRecord> records = DataRepository.getInstance(this).findNearest(lat,lon, Configuration.LRU_LIST_MAX_LEN);
-        for(AirportRecord record : records) {
-            System.out.println("XXX: "+record);
-        }
+
+        //TODO remove:
+        Toast toast = Toast.makeText(this, "onLocationChanged", Toast.LENGTH_SHORT);
+        toast.show();
 
         listItemAdapter.setValues(records);
         listItemAdapter.notifyDataSetChanged();
     }
 
     public void onStatusChanged(String s, int i, Bundle bundle) {
-        System.out.println("## STATUS CHANGED;" + s + ";" + i);
-        // nix
+        // This method was deprecated in API level Q.
+        // This callback will never be invoked.
     }
 
     public void onProviderEnabled(String s) {
-        System.out.println("## PROV ENABLED" + s);
-        // nix
+        // called when the user has enabled the provider
     }
 
     public void onProviderDisabled(String s) {
-        System.out.println("## PROV DISABLED" + s);
-        // nix
+        // called when the user has disabled the provider
     }
 
 }

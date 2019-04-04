@@ -45,10 +45,10 @@
     <string name="other_text2_right_column">131,105\n118,055\n122,160\n118,955</string>
 
     <string name="nearest_title">Nejbližší plochy</string>
+    <string name="nearest_welcome_toast">Čekám na GPS fix</string>
 
-    <string name="gps_settings_title">GPS_TITLE_CZ</string>
-    <string name="gps_settings_dlg_text">GPS_TEXT_CZ</string>
-    <string name="btn_setting">Nastavit</string>
+    <string name="gps_settings_text">GPS poloha není povolena</string>
+    <string name="btn_enable">Povolit</string>
     <string name="btn_cancel">Zrušit</string>
 
 </resources>

@@ -25,6 +25,7 @@ public class AirportListOnClickListener implements AdapterView.OnItemClickListen
             //Intent mapIntent = new Intent(MainActivity.this, MapViewActivity.class);
             Intent mapIntent = new Intent(activity, SwipeActivity.class);
             mapIntent.putExtra("airportCode", rec.code);
+            mapIntent.putExtra("returnToActivity", activity.getClass().getCanonicalName());
             activity.startActivity(mapIntent);
         }
     }

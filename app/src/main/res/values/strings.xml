@@ -47,10 +47,10 @@
     <string name="other_text2_right_column">131.105\n118.055\n122.160\n118,955</string>
 
     <string name="nearest_title">Nearest landables</string>
+    <string name="nearest_welcome_toast">Waiting for GPS fix</string>
 
-    <string name="gps_settings_title">GPS_TITLE_EN</string>
-    <string name="gps_settings_dlg_text">GPS_TEXT_EN</string>
-    <string name="btn_setting">Configure</string>
+    <string name="gps_settings_text">GPS location service disabled</string>
+    <string name="btn_enable">Enable</string>
     <string name="btn_cancel">Cancel</string>
 
 </resources>

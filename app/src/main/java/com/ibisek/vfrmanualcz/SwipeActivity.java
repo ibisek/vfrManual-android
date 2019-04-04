@@ -1,5 +1,6 @@
 package com.ibisek.vfrmanualcz;
 
+import android.app.Activity;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -11,6 +12,8 @@ import android.view.View;
 import com.ibisek.vfrmanualcz.swipe.SwipeAdapter;
 
 public class SwipeActivity extends AppCompatActivity {
+
+//    Class returnToActivity = MainActivity.class;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -33,6 +36,15 @@ public class SwipeActivity extends AppCompatActivity {
         viewPager.setCurrentItem(0);
 
         viewPager.addOnPageChangeListener(new MyOnPageChangeListener());
+
+//        if (getIntent().hasExtra("returnToActivity")) {
+//            String returnToActivityStr = getIntent().getStringExtra("returnToActivity");
+//            try {
+//                returnToActivity =  Class.forName(returnToActivityStr);
+//            } catch (ClassNotFoundException ex) {
+//                System.err.println("Error when instantiating returnToActivity:" + ex.getLocalizedMessage());
+//            }
+//        }
     }
 
     // dirty'n'ugly
@@ -67,5 +79,4 @@ public class SwipeActivity extends AppCompatActivity {
             //nix
         }
     }
-
 }
