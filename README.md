@@ -29,7 +29,7 @@ All data is sourced from the following sites with priority in this order:
 * [Letecká informačná služba Slovenskej republiky](https://aim.lps.sk/web/)
 
 ## TODO 
-* seznam nejblizsich letist podle aktualni polohy
+* ~~seznam nejblizsich letist podle aktualni polohy~~
 * získat data o co nejvíce UL plochách i na Slovensku, Polsku, Rakousku a Německu
 * udělat seznam neobsazených frekvencí okolních zemí a ty pak s radostí používat při přeletech, aniž bychom někoho rušili
 * automaticke aktualizace dat (e.g. CRONem)
