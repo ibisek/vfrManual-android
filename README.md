@@ -13,7 +13,7 @@ Seznam dostupných releasů APK souborů ke stažení je [ZDE](https://github.co
 List of available releases of APK files for download is available right [HERE](https://github.com/ibisek/vfrManual-android/releases).
 
 ## Google Play
-Na PLAY store je aplikace dostupná [TUNA](https://play.google.com/store/apps/details?id=com.ibisek.vfrmanualcz).
+Na PLAY store je aplikace dostupná [TADY](https://play.google.com/store/apps/details?id=com.ibisek.vfrmanualcz).
 
 Installation from the app store can be done through [THIS](https://play.google.com/store/apps/details?id=com.ibisek.vfrmanualcz) link.
 
