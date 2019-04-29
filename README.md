@@ -30,6 +30,7 @@ All data is sourced from the following sites with priority in this order:
 
 ## TODO 
 * ~~seznam nejblizsich letist podle aktualni polohy~~
+* ~~do seznamu nejblizsich pridat vzdalenost a smer k plose~~
 * získat data o co nejvíce UL plochách i na Slovensku, Polsku, Rakousku a Německu
 * udělat seznam neobsazených frekvencí okolních zemí a ty pak s radostí používat při přeletech, aniž bychom někoho rušili
 * automaticke aktualizace dat (e.g. CRONem)
