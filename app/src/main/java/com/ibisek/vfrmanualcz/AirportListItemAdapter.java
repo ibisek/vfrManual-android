@@ -170,7 +170,7 @@ public class AirportListItemAdapter extends ArrayAdapter<String> {
             TextView directionLabel = listItemView.findViewById(R.id.directionLabel);
             TextView direction = listItemView.findViewById(R.id.direction);
             if(distance!= null && direction != null) {
-                if (true) {   //withDistAndDir
+                if (withDistAndDir) {
                     distanceLabel.setVisibility(View.VISIBLE);
                     distance.setVisibility(View.VISIBLE);
                     directionLabel.setVisibility(View.VISIBLE);
