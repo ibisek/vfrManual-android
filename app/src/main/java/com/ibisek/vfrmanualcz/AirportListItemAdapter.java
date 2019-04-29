@@ -186,15 +186,18 @@ public class AirportListItemAdapter extends ArrayAdapter<String> {
                     if (deviceHeadingSet) {    // compass available
                         String dirStr;
                         float dir = (360 + (bearingToTarget - deviceHeading)) % 360;
-                        if (dir <= 180) {
-                            if (Math.round(dir) == 0)
-                                dirStr = "▲";
-                            else
-                                dirStr = String.format("%.0f\u00B0 ▶", dir);
+
+                        if (Math.round(dir) == 0) {
+                            dirStr = "▲";
+
+                        } else if (dir <= 180) {
+                            dirStr = String.format("%.0f\u00B0 ▶", dir);
+
                         } else {
                             dir = (360 + (deviceHeading - bearingToTarget)) % 360;
                             dirStr = String.format("◀ %.0f\u00B0", dir);
                         }
+
                         direction.setText(dirStr);
 
                     } else {

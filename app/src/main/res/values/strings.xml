@@ -23,9 +23,9 @@
     <string name="about_intro_url2">openflightmaps.org</string>
     <string name="about_intro_url3">aerobaze.cz/gps</string>
     <string name="about_intro2">and post-processed for seamless use. Data is valid from:</string>
-    <string name="data_valid_from">2019-03-28</string>
+    <string name="data_valid_from">2019-04-25</string>
     <string name="about_author">Author: Ibišek</string>
-    <string name="about_version">Application version: 2019-04-04</string>
+    <string name="about_version">Application version: 2019-04-29</string>
     <string name="about_download_url">www.ibisek.com</string>
     <string name="about_github">Source code of the app as well as data acquisition scripts are available on</string>
     <string name="about_github_url">github.com/ibisek/vfrManual-android</string>

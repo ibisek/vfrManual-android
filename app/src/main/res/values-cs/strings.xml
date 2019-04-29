@@ -23,9 +23,9 @@
     <string name="about_intro_url2">openflightmaps.org</string>
     <string name="about_intro_url3">aerobaze.cz/gps</string>
     <string name="about_intro2">a zpracovány pro offline použití. Platnost dat od:</string>
-    <string name="data_valid_from">2019-03-28</string>
+    <string name="data_valid_from">2019-04-25</string>
     <string name="about_author">Autor: Ibišek</string>
-    <string name="about_version">Verze aplikace: 2019-04-04</string>
+    <string name="about_version">Verze aplikace: 2019-04-29</string>
     <string name="about_download_url">www.ibisek.com</string>
     <string name="about_github">Zdrojové kódy aplikace i skriptů pro zpracování dat jsou dostupné na</string>
     <string name="about_github_releases">Nové verze a aktualizace:</string>
