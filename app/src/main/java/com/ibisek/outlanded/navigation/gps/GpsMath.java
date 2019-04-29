@@ -42,10 +42,10 @@ public class GpsMath {
 	/**
 	 * Longitude and latitude in RADians!
 	 * 
-	 * @param lat1
-	 * @param lon1
-	 * @param lat2
-	 * @param lon2
+	 * @param lat1 TO
+	 * @param lon1 TO
+	 * @param lat2 FROM
+	 * @param lon2 FROM
 	 * @return bearing in degrees
 	 */
 	public static float getBearing(double lat1, double lon1, double lat2, double lon2) {

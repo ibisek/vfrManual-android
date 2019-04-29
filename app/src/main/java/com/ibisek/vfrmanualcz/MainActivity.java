@@ -64,6 +64,7 @@ public class MainActivity extends AppCompatActivity {
     private void initListView() {
         final ListView listView = findViewById(R.id.listView);
         listItemAdapter = new AirportListItemAdapter(this);
+        listItemAdapter.setWithDistAndDir(false);
         listView.setAdapter(listItemAdapter);
         listView.setOnItemClickListener(new AirportListOnClickListener(this, listItemAdapter));
     }

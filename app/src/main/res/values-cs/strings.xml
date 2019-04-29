@@ -4,6 +4,9 @@
     <string name="freq">FREQ</string>
     <string name="elev">Nadm. výška</string>
     <string name="circleAlt">Okruh</string>
+    <string name="distance">VZDÁL</string>
+    <string name="direction">Směr</string>
+    <string name="bearing">Bearing</string>
 
     <string name="menu_show_nearest">Show nearest</string>
     <string name="menu_other">Další informace</string>

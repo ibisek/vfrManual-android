@@ -4,6 +4,9 @@
     <string name="freq">FREQ</string>
     <string name="elev">Elevation</string>
     <string name="circleAlt">Circle Alt</string>
+    <string name="distance">DIST</string>
+    <string name="direction">Direction</string>
+    <string name="bearing">Bearing</string>
 
     <string name="menu_show_nearest">Show nearest</string>
     <string name="menu_other">Additional information</string>

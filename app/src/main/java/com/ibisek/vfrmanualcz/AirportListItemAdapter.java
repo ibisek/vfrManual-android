@@ -7,6 +7,7 @@ import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.TextView;
 
+import com.ibisek.outlanded.navigation.gps.GpsMath;
 import com.ibisek.vfrmanualcz.data.AirportRecord;
 import com.ibisek.vfrmanualcz.data.Frequency;
 
@@ -18,10 +19,18 @@ public class AirportListItemAdapter extends ArrayAdapter<String> {
 
     private Context context;
     protected List<AirportRecord> values = new ArrayList<>();
+    boolean withDistAndDir = false;
+    double lat, lon; // [rad]
+    boolean deviceHeadingSet = false;
+    float deviceHeading = 0; // [deg]
 
     public AirportListItemAdapter(Context context) {
         super(context, android.R.layout.simple_list_item_1, new ArrayList<String>(Arrays.asList(new String[] { "xxx sem neco :)" })));
         this.context = context;
+    }
+
+    public void setWithDistAndDir(boolean withDistAndDir) {
+        this.withDistAndDir = withDistAndDir;
     }
 
     @Override
@@ -57,9 +66,9 @@ public class AirportListItemAdapter extends ArrayAdapter<String> {
                     runway.setText(rec.runways.get(0).directions);
                     runwayDim.setText(rec.runways.get(0).dimensions);
                 } else {
-                    runway.setVisibility(View.GONE);
-                    runwayDim.setVisibility(View.GONE);
-                    listItemView.findViewById(R.id.rwyLabel).setVisibility(View.GONE);
+                    runway.setVisibility(View.INVISIBLE);
+                    runwayDim.setVisibility(View.INVISIBLE);
+                    listItemView.findViewById(R.id.rwyLabel).setVisibility(View.INVISIBLE);
                 }
 
                 elevation.setText(String.format("%sm", rec.elevationMeters));
@@ -155,6 +164,49 @@ public class AirportListItemAdapter extends ArrayAdapter<String> {
                 }
             }
 
+            // display distance and direction (if available):
+            TextView distanceLabel = listItemView.findViewById(R.id.distanceLabel);
+            TextView distance = listItemView.findViewById(R.id.distance);
+            TextView directionLabel = listItemView.findViewById(R.id.directionLabel);
+            TextView direction = listItemView.findViewById(R.id.direction);
+            if(distance!= null && direction != null) {
+                if (true) {   //withDistAndDir
+                    distanceLabel.setVisibility(View.VISIBLE);
+                    distance.setVisibility(View.VISIBLE);
+                    directionLabel.setVisibility(View.VISIBLE);
+                    direction.setVisibility(View.VISIBLE);
+
+                    // distance:
+                    rec.calcDistance(lat, lon);
+                    distance.setText(String.format("%.1f km", rec.distance));
+
+                    // direction:
+                    float bearingToTarget = GpsMath.getBearing(rec.latitudeRad, rec.longitudeRad, lat, lon);
+
+                    if (deviceHeadingSet) {    // compass available
+                        String dirStr;
+                        float dir = (360 + (bearingToTarget - deviceHeading)) % 360;
+                        if (dir <= 180) {
+                            dirStr = String.format("%.0f\u00B0 ▶", dir);
+                        } else {
+                            dir = (360 + (deviceHeading - bearingToTarget)) % 360;
+                            dirStr = String.format("◀ %.0f\u00B0", dir);
+                        }
+                        direction.setText(dirStr);
+
+                    } else {
+                        directionLabel.setText(R.string.bearing);
+                        direction.setText(String.format("%.0f\u00B0", bearingToTarget));
+                    }
+
+                } else {
+                    distanceLabel.setVisibility(View.GONE);
+                    distance.setVisibility(View.GONE);
+                    directionLabel.setVisibility(View.GONE);
+                    direction.setVisibility(View.GONE);
+                }
+            }
+
         } else { // return an empty list item - data is not loaded yet
             LayoutInflater inflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
             listItemView = inflater.inflate(R.layout.fragment_empty_list_item, parent, false);
@@ -189,6 +241,22 @@ public class AirportListItemAdapter extends ArrayAdapter<String> {
             for (AirportRecord r : values)
                 super.add(r.code);
         }
+    }
+
+    /**
+     * @param lat [rad]
+     * @param lon [rad]
+     */
+    public void setCurrentLocation(double lat, double lon) {
+        this.lat = lat;
+        this.lon = lon;
+        notifyDataSetChanged();
+    }
+
+    public void setDeviceHeading(float heading) {
+        deviceHeadingSet = true;
+        this.deviceHeading = heading;
+        notifyDataSetChanged();
     }
 
     @Override
