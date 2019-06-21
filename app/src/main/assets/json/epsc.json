@@ -1,1 +1,1 @@
-{"coords":["53.58472","14.90222"],"code":"EPSC","rwy":[["13-31","2500x60"]],"freq":[["TOWER","121.255"],["ATIS","132.130"]],"elev":[154,46],"name":"SZCZECIN/GOLENI\u00d3W","alias":"SZCZECIN/GOLENIOW"}
+{"name":"SZCZECIN/GOLENI\u00d3W","alias":"SZCZECIN/GOLENIOW","code":"EPSC","freq":[["TOWER","121.255"],["ATIS","132.130"]],"rwy":[["13-31","2500x60"]],"coords":["53.58472","14.90222"],"elev":[154,46]}

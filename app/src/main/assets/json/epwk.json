@@ -1,1 +1,1 @@
-{"coords":["52.58462","19.01550"],"code":"EPWK","rwy":[["08-26","1000x100"],["17-35","600x100"]],"freq":[["KRUSZYN K/W\u0141OC\u0141AWKA RADIO","122.400"]],"elev":[66,20],"name":"KRUSZYN K/W\u0141OC\u0141AWKA","alias":"KRUSZYN K/W\u0141OC\u0141AWKA"}
+{"name":"KRUSZYN K/W\u0141OC\u0141AWKA","alias":"KRUSZYN K/W\u0141OC\u0141AWKA","code":"EPWK","freq":[["KRUSZYN K/W\u0141OC\u0141AWKA RADIO","122.400"]],"rwy":[["08-26","1000x100"],["17-35","600x100"]],"coords":["52.58462","19.01550"],"elev":[217,66]}

@@ -1,1 +1,1 @@
-{"coords":["54.41612","17.76333"],"code":"EPCE","rwy":[["08-26","2500x50"]],"freq":[["CEWICE Info","126.750"]],"elev":[47,14],"name":"CEWICE","alias":"CEWICE"}
+{"name":"CEWICE","alias":"CEWICE","code":"EPCE","freq":[["CEWICE Info","126.750"]],"rwy":[["08-26","2500x50"]],"coords":["54.41612","17.76333"],"elev":[47,14]}

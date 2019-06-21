@@ -1,1 +1,1 @@
-{"coords":["52.00083","23.13250"],"code":"EPBP","rwy":[["06R-24L","2260x30"],["06R-24L","690x150"],["06L-24R","510x110"]],"freq":[["BIA\u0141A PODLASKA RADIO","118.150"]],"elev":[142,43],"name":"BIA\u0141A PODLASKA","alias":"BIA\u0141A PODLASKA"}
+{"name":"BIA\u0141A PODLASKA","alias":"BIA\u0141A PODLASKA","code":"EPBP","freq":[["BIA\u0141A PODLASKA RADIO","118.150"]],"rwy":[["06R-24L","2260x30"],["06R-24L","690x150"],["06L-24R","510x110"]],"coords":["52.00083","23.13250"],"elev":[495,150]}

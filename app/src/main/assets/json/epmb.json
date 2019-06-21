@@ -1,1 +1,1 @@
-{"coords":["54.02667","19.13555"],"code":"EPMB","rwy":[["08-26","2500x50"]],"freq":[["Tower","123.000"],["PRECISION","118.175"]],"elev":[6,1],"name":"MALBORK","alias":"MALBORK"}
+{"name":"MALBORK","alias":"MALBORK","code":"EPMB","freq":[["Tower","123.000"],["PRECISION","118.175"]],"rwy":[["08-26","2500x50"]],"coords":["54.02667","19.13555"],"elev":[20,6]}

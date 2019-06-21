@@ -1,1 +1,1 @@
-{"alias":"SLUSOVICE","rwy":[["04-22","310x12"]],"coords":[49.25906,17.8133],"freq":[["RADIO","120,005"]],"elev":[1165,355],"code":"LKSLUS","name":"SLUSOVICE"}
+{"coords":[49.25889,17.81333],"nameAlias":"Slusovice","rwy":[["04-22","310x12"]],"txt":{"cz":{"contacts":[{"name":"Leti\u0161t\u011b Slu\u0161ovice, s.r.o."}],"proc":["Ob\u010dasn\u00fd para provoz."]}},"code":"LKSLUS","freq":[["SLU\u0160OVICE RADIO","120,005"]],"elev":[1165,355],"name":"Slu\u0161ovice","circleAlt":[2148,655]}

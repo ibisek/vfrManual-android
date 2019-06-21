@@ -1,1 +1,1 @@
-{"coords":["51.72194","19.39806"],"code":"EPLL","rwy":[["07L-25R","2500x45"],["07R-25L","700x175"]],"freq":[["TOWER","124.230"],["ATIS","135.680"]],"elev":[607,185],"name":"\u0141\u00d3D\u0179 - LUBLINEK","alias":"\u0141OD\u0179 - LUBLINEK"}
+{"name":"\u0141\u00d3D\u0179 - LUBLINEK","alias":"\u0141OD\u0179 - LUBLINEK","code":"EPLL","freq":[["TOWER","124.230"],["ATIS","135.680"]],"rwy":[["07L-25R","2500x45"],["07R-25L","700x175"]],"coords":["51.72194","19.39806"],"elev":[607,185]}

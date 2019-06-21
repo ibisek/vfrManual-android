@@ -1,1 +1,1 @@
-{"coords":["53.76055","15.29028"],"code":"EPMAK","rwy":[["12-30","1100x50"]],"freq":[["MAKOWICE APPROACH","125.200"]],"elev":[47,14],"name":"MAKOWICE","alias":"MAKOWICE"}
+{"name":"MAKOWICE","alias":"MAKOWICE","code":"EPMAK","freq":[["MAKOWICE APPROACH","125.200"]],"rwy":[["12-30","1100x50"]],"coords":["53.76055","15.29028"],"elev":[47,14]}

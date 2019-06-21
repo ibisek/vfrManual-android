@@ -1,1 +1,1 @@
-{"coords":["50.07778","19.78472"],"code":"EPKK","rwy":[["07-25","2550x60"]],"freq":[["DELIVERY","121.975"],["GROUND","118.105"],["TOWER","123.255"],["ATIS","126.130"]],"elev":[791,241],"name":"KRAK\u00d3W/BALICE","alias":"KRAKOW/BALICE"}
+{"name":"KRAK\u00d3W/BALICE","alias":"KRAKOW/BALICE","code":"EPKK","freq":[["DELIVERY","121.975"],["GROUND","118.105"],["TOWER","123.255"],["ATIS","126.130"]],"rwy":[["07-25","2550x60"]],"coords":["50.07778","19.78472"],"elev":[791,241]}
