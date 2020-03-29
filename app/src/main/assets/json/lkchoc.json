@@ -1,1 +1,1 @@
-{"coords":[49.9775,16.18528],"nameAlias":"Chocen","rwy":[["15-33","620x20"]],"txt":{"cz":{"contacts":[{"name":"Pilotklub Choce\u0148, o.s.","phone":"+420 603 252 319","mail":"pilotklubchocen@compositairplanes.cz"}],"proc":["Po vzletu z RWY 15 prov\u00e9st zat\u00e1\u010dku vpravo."]}},"code":"LKCHOC","freq":[["CHOCE\u0147 RADIO","120,685"]],"elev":[866,263],"name":"Choce\u0148","circleAlt":[1541,470]}
+{"freq":[["RADIO","120,685"]],"coords":[49.9775,16.18528],"elev":[866,264],"code":"LKCHOC"}

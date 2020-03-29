@@ -1,1 +1,1 @@
-{"coords":[48.93167,16.33972],"rwy":[["12-30","670x30"]],"txt":{"cz":{"contacts":[{"name":"AirConFly, z.s."}],"proc":["Plocha le\u017e\u00ed pod MTMA I N\u00e1m\u011b\u0161\u0165. 3 km W (z\u00e1padn\u011b) je plocha SLZ Miroslav."]}},"code":"LKMIRA","freq":[["AIRCON RADIO","120,665"]],"elev":[715,217],"name":"Miroslav AirCon","circleAlt":[1377,420]}
+{"freq":[["AirCon RADIO","120,665"]],"coords":[48.93167,16.33972],"elev":[715,217],"code":"LKMIRA","name":"MIROSLAV AIRCON","alias":"MIROSLAV AIRCON","rwy":[["12-30","705x35"]]}

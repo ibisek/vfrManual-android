@@ -1,1 +1,1 @@
-{"coords":[48.93139,16.29861],"rwy":[["18-36","600x25"]],"txt":{"cz":{"contacts":[{"name":"Aeroklub Miroslav","phone":"+420 737 585 637","mail":"jaromir.simsa@seznam.cz"}],"proc":["N (severn\u011b) od plochy je MTMA N\u00e1m\u011b\u0161\u0165. 3 km E (v\u00fdchodn\u011b) je plocha SLZ Miroslav AIRCOM."]}},"code":"LKMIRO","freq":[["MIROSLAV RADIO","125,830"]],"elev":[780,237],"name":"Miroslav","circleAlt":[1443,440]}
+{"freq":[["RADIO","125,830"]],"coords":[48.93139,16.29861],"elev":[780,237],"code":"LKMIRO","name":"MIROSLAV","alias":"MIROSLAV","rwy":[["18-36","600x25"]]}
