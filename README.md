@@ -37,6 +37,7 @@ All data is sourced from the following sites with priority in this order:
 * automaticke aktualizace dat (e.g. CRONem)
 * oddelit data od aplikace
 * dotaz z aplikace na github-repo, zda jsou k dispozici aktualizace, stahovat (idealne) jen zmenene soubory
+* poslani zvolene frekvence do KRTtka (TT)
 * ..
 * ~~seznam nejblizsich letist podle aktualni polohy~~
 * ~~do seznamu nejblizsich pridat vzdalenost a smer k plose~~
