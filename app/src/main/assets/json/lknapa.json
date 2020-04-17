@@ -1,1 +1,1 @@
-{"freq":[["RADIO","125,830"]],"coords":[49.19876,13.59998],"elev":[1772,540],"code":"LKNAPA","name":"NAPAJEDLA","alias":"NAPAJEDLA","rwy":[["06-24","300x15"]]}
+{"elev":[1761,537],"name":"Napajedla","code":"LKNAPA","freq":[["NAPAJEDLA RADIO","125,830"]],"txt":{"cz":{"contacts":[{"phone":"+420 737 215 740","name":"Doc. RNDr. Karel Volenec CSc.","mail":"karel.volenec@ellacs.cz"}],"proc":["Poj\u00ed\u017ed\u011bt pouze po RWY."]}},"circleAlt":[2755,840],"coords":[49.19889,13.6],"rwy":[["06-24","340x15"]]}
