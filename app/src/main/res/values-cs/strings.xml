@@ -5,7 +5,7 @@
     <string name="elev">Nadm. výška</string>
     <string name="circleAlt">Okruh</string>
     <string name="distance">VZDÁL</string>
-    <string name="direction">Směr</string>
+    <string name="direction">Směr</string>f
     <string name="bearing">Bearing</string>
 
     <string name="menu_show_nearest">Show nearest</string>
@@ -46,6 +46,8 @@
     <string name="other_text1_right_column">126,100\n136,175\n136,275</string>
     <string name="other_text2_left_column">Brno ATIS\nOstrava ATIS\nPrague ATIS\nKarlovy Vary ATIS</string>
     <string name="other_text2_right_column">131,105\n118,055\n122,160\n118,955</string>
+    <string name="other_text3_left_column">Plachtařská\nBalónářská</string>
+    <string name="other_text3_right_column">130,930\n122.155</string>
 
     <string name="nearest_title">Nejbližší plochy</string>
     <string name="nearest_welcome_toast">Čekám na GPS fix</string>
