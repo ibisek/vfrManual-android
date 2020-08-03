@@ -38,7 +38,8 @@ All data is sourced from the following sites with priority in this order:
 * oddelit data od aplikace
 * dotaz z aplikace na github-repo, zda jsou k dispozici aktualizace, stahovat (idealne) jen zmenene soubory
 * ..
-* ~~po kliknuti z proximity view pridat letiste do last used listu
+* ~~pridat dostupnost paliva (a oleje) do detailu letiste~~
+* ~~po kliknuti z proximity view pridat letiste do last used listu~~
 * ~~seznam nejblizsich letist podle aktualni polohy~~
 * ~~do seznamu nejblizsich pridat vzdalenost a smer k plose~~
 
