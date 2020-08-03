@@ -32,7 +32,7 @@ import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
 
-    private AirportListItemAdapter listItemAdapter;
+    protected AirportListItemAdapter listItemAdapter;
     private DataRepository dataRepository;
     private GestureDetector gestureDetector;
 
@@ -66,7 +66,10 @@ public class MainActivity extends AppCompatActivity {
         listItemAdapter = new AirportListItemAdapter(this);
         listItemAdapter.setWithDistAndDir(false);
         listView.setAdapter(listItemAdapter);
-        listView.setOnItemClickListener(new AirportListOnClickListener(this, listItemAdapter));
+
+        AirportListOnClickListener l = new AirportListOnClickListener(this, listItemAdapter);
+        listView.setOnItemClickListener(l);
+        listView.setOnItemLongClickListener(l);
     }
 
     @Override
