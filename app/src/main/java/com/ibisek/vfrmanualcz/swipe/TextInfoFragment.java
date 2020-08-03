@@ -75,8 +75,8 @@ public class TextInfoFragment extends Fragment {
 
         // SERVICES / FUEL & OIL availability:
         sb = new StringBuilder();
-        sb.append(String.format("%s:\n  %s\n", getResources().getString(R.string.textinfo_services_fuel), (rec.fuel == null ? '?' : rec.fuel)));
-        sb.append(String.format("%s:\n  %s", getResources().getString(R.string.textinfo_services_oil), (rec.oil == null ? '?' : rec.oil)));
+        sb.append(String.format("%s:\n%s\n\n", getResources().getString(R.string.textinfo_services_fuel), (rec.fuel == null ? '?' : rec.fuel)));
+        sb.append(String.format("%s:\n%s\n", getResources().getString(R.string.textinfo_services_oil), (rec.oil == null ? '?' : rec.oil)));
         TextView services = view.findViewById(R.id.services);
         services.setText(sb.toString());
 
