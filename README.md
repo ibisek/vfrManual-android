@@ -32,7 +32,7 @@ All data is sourced from the following sites with priority in this order:
 * poslani zvolene frekvence do KRTtka (TT)
 * pridat moznost vyfotit situaci letiste z luftu a fotku pridat do dostupnych materialu k letisti (priblizeni RwY XX atd.)
 * invertovat displej (bila na cerne)
-* získat data o co nejvíce UL plochách i na Slovensku, Polsku, Rakousku a Německu
+* získat dalsi data o co nejvíce UL plochách i na Slovensku, Polsku, Rakousku a Německu
 * udělat seznam neobsazených frekvencí okolních zemí a ty pak s radostí používat při přeletech, aniž bychom někoho rušili
 * automaticke aktualizace dat (e.g. CRONem)
 * oddelit data od aplikace
