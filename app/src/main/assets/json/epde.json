@@ -1,1 +1,1 @@
-{"coords":["51.55112","21.89195"],"code":"EPDE","rwy":[["12-30","2500x50"]],"freq":[["APPROACH","128.250"],["Tower","122.750"]],"elev":[394,120],"name":"D\u0118BLIN","alias":"D\u0118BLIN"}
+{"code":"EPDE","name":"D\u0118BLIN","alias":"D\u0118BLIN","coords":["51.55112","21.89195"],"elev":[394,120],"freq":[["APPROAC","128.250"],["TOWE","122.750"]],"rwy":[["12-30","2500x50"]]}

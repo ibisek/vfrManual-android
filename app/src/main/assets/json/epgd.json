@@ -1,1 +1,1 @@
-{"name":"GDA\u0143SK IM. LECHA WA\u0141\u0118SY","alias":"GDA\u0143SK IM. LECHA WA\u0141\u0118SY","code":"EPGD","freq":[["DELIVERY","131.325"],["TOWER","118.105"],["ATIS","129.630"]],"rwy":[["11-29","2800x45"]],"coords":["54.37750","18.46611"],"elev":[489,149]}
+{"code":"EPGD","name":"GDA\u0143SK IM. LECHA WA\u0141\u0118SY","alias":"GDA\u0143SK IM. LECHA WA\u0141\u0118SY","coords":["54.37750","18.46611"],"elev":[489,149],"freq":[["TOWE","118.105"],["ATI","129.630"],["DELIVER","131.330"]],"rwy":[["11-29","2800x45"]]}

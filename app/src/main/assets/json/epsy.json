@@ -1,1 +1,1 @@
-{"name":"OLSZTYN-MAZURY","alias":"OLSZTYN-MAZURY","code":"EPSY","freq":[["TOWER","118.030"],["Information","118.030"],["Radio","118.030"]],"rwy":[["01-19","2500x45"]],"coords":["53.48194","20.93778"],"elev":[464,141]}
+{"code":"EPSY","name":"OLSZTYN-MAZURY","alias":"OLSZTYN-MAZURY","coords":["53.48194","20.93778"],"elev":[464,141],"freq":[["TOWE","118.030"],["RADI","118.030"]],"rwy":[["01-19","2500x45"]]}

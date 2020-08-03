@@ -1,1 +1,1 @@
-{"name":"WROC\u0141AW/STRACHOWICE","alias":"WROC\u0141AW/STRACHOWICE","code":"EPWR","freq":[["DELIVERY","121.805"],["TOWER","120.255"],["ATIS","124.330"]],"rwy":[["11-29","2503x58"]],"coords":["51.10278","16.88583"],"elev":[406,123]}
+{"code":"EPWR","name":"WROC\u0141AW/STRACHOWICE","alias":"WROC\u0141AW/STRACHOWICE","coords":["51.10278","16.88583"],"elev":[406,123],"freq":[["DELIVER","121.805"],["TOWE","120.255"],["ATI","124.330"]],"rwy":[["11-29","2503x58"]]}

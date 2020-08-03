@@ -1,1 +1,1 @@
-{"coords":["50.47417","19.08000"],"code":"EPKT","rwy":[["09-27","3200x45"]],"freq":[["DELIVERY","121.805"],["TOWER","129.255"],["ATIS","120.230"]],"elev":[1007,306],"name":"KATOWICE/PYRZOWICE","alias":"KATOWICE/PYRZOWICE"}
+{"code":"EPKT","name":"KATOWICE/PYRZOWICE","alias":"KATOWICE/PYRZOWICE","coords":["50.47417","19.08000"],"elev":[1007,306],"freq":[["TOWE","129.255"],["ATI","120.230"],["DELIVER","121.805"]],"rwy":[["09-27","3200x45"]]}

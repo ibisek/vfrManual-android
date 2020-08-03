@@ -1,1 +1,1 @@
-{"name":"RZESZ\u00d3W/JASIONKA","alias":"RZESZOW/JASIONKA","code":"EPRZ","freq":[["TOWER","126.805"],["ATIS","124.955"]],"rwy":[["09-27","3200x45"],["08-26","900x30"],["08-26","748x40"]],"coords":["50.11000","22.01889"],"elev":[692,210]}
+{"code":"EPRZ","name":"RZESZ\u00d3W/JASIONKA","alias":"RZESZOW/JASIONKA","coords":["50.11000","22.01889"],"elev":[692,210],"freq":[["TOWE","126.805"],["ATI","124.955"],["DELIVER","121.805"]],"rwy":[["09-27","3200x45"]]}

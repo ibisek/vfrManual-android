@@ -1,1 +1,1 @@
-{"coords":["51.08195","23.43722"],"code":"EPCD","rwy":[["01-19","850x50"]],"freq":[["DEPU\u0141TYCZE KR\u00d3LEWSKIE radio","119.575"]],"elev":[727,221],"name":"DEPU\u0141TYCZE KR\u00d3LEWSKIE","alias":"DEPU\u0141TYCZE KROLEWSKIE"}
+{"code":"EPCD","name":"DEPU\u0141TYCZE KR\u00d3LEWSKIE","alias":"DEPU\u0141TYCZE KROLEWSKIE","coords":["51.08195","23.43749"],"elev":[727,221],"freq":[["DEPU\u0141TYCZE KR\u00d3LEWSKIE RADI","119.580"]],"rwy":[["01R-19L","850x50"],["01L-19R","720x50"]]}

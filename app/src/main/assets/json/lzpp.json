@@ -1,1 +1,1 @@
-{"elev":[545,166],"rwy":[["01-19","2000x30"]],"coords":["48.62500","17.82861"],"alias":"PIESTANY","name":"PIESTANY","code":"LZPP","freq":[["TOWER","118.575"],["TOWER","118.450"],["TRAFFIC","122.605"]]}
+{"code":"LZPP","name":"PIESTANY","alias":"PIESTANY","coords":["48.62500","17.82861"],"elev":[545,166],"freq":[["TOWE","118.575"],["TOWE","118.450"]],"rwy":[["01-19","2000x30"]]}

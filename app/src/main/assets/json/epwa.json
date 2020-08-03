@@ -1,1 +1,1 @@
-{"name":"WARSZAWA OK\u0118CIE","alias":"WARSZAWA OK\u0118CIE","code":"EPWA","freq":[["DELIVERY","121.605"],["GROUND","121.905"],["TOWER","118.305"],["TOWER","121.500"],["ATIS","120.450"]],"rwy":[["11-29","2800x50"],["15-33","3690x60"]],"coords":["52.16583","20.96722"],"elev":[362,110]}
+{"code":"EPWA","name":"WARSZAWA OK\u0118CIE","alias":"WARSZAWA OK\u0118CIE","coords":["52.16583","20.96722"],"elev":[362,110],"freq":[["TOWE","118.305"],["ATI","120.455"],["DELIVER","121.605"],["GROUN","121.905"]],"rwy":[["11-29","2800x50"],["15-33","3690x60"]]}

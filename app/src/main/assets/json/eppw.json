@@ -1,1 +1,1 @@
-{"name":"POWIDZ","alias":"POWIDZ","code":"EPPW","freq":[["Tower","119.000"],["Approach","129.675"]],"rwy":[["11-29","3515x50"]],"coords":["52.37917","17.85222"],"elev":[385,117]}
+{"code":"EPPW","name":"POWIDZ","alias":"POWIDZ","coords":["52.37917","17.85222"],"elev":[385,117],"freq":[["TOWE","119.000"],["APPROAC","129.675"]],"rwy":[["10R-28L","3514x60"],["10L-28R","2727x30"]]}

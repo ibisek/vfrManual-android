@@ -1,1 +1,1 @@
-{"name":"POZNA\u0143/\u0141AWICA","alias":"POZNA\u0143/\u0141AWICA","code":"EPPO","freq":[["DELIVERY","121.805"],["TOWER","119.980"],["ATIS","124.705"],["ATIS","124.705"]],"rwy":[["10-28","2504x50"]],"coords":["52.42111","16.82639"],"elev":[308,93]}
+{"code":"EPPO","name":"POZNA\u0143/\u0141AWICA","alias":"POZNA\u0143/\u0141AWICA","coords":["52.42111","16.82639"],"elev":[308,93],"freq":[["TOWE","119.980"],["ATI","124.705"],["DELIVER","121.805"]],"rwy":[["10-28","2504x50"]]}

@@ -1,1 +1,1 @@
-{"elev":[1032,314],"rwy":[["05-23","800x40"]],"coords":["49.02667","21.30500"],"alias":"PRESOV","name":"PRESOV","code":"LZPW","freq":[["TOWER","135.500"],["TOWER","134.325"]]}
+{"code":"LZPW","name":"PRESOV","alias":"PRESOV","coords":["49.02667","21.30500"],"elev":[1032,314],"freq":[["TOWE","135.500"],["RADA","134.325"]],"rwy":[["05-23","800x40"]]}

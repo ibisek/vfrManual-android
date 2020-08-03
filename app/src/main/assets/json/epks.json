@@ -1,1 +1,1 @@
-{"name":"POZNA\u0143/KRZESINY","alias":"POZNA\u0143/KRZESINY","code":"EPKS","freq":[["Tower","121.025"],["Precision","120.750"]],"rwy":[["11-29","2500x50"]],"coords":["52.33195","16.96667"],"elev":[84,25]}
+{"code":"EPKS","name":"EPWW","alias":"EPWW","coords":["52.33195","16.96667"],"elev":[84,25],"freq":[["TOWE","121.025"],["PRECISIO","120.750"],["GROUN","121.750"],["ATI","128.725"]],"rwy":[["11-29","2500x50"]]}

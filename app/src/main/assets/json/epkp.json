@@ -1,1 +1,1 @@
-{"coords":["50.08722","20.20278"],"code":"EPKP","rwy":[["09R-27L","1100x50"],["09L-27R","980x120"]],"freq":[["POBIEDNIK K/KRAKOWA RADIO","118.605"]],"elev":[664,202],"name":"POBIEDNIK K/KRAKOWA","alias":"POBIEDNIK K/KRAKOWA"}
+{"code":"EPKP","name":"POBIEDNIK K/KRAKOWA","alias":"POBIEDNIK K/KRAKOWA","coords":["50.08722","20.20278"],"elev":[664,202],"freq":[["POBIEDNIK K/KRAKOWA RADI","118.605"]],"rwy":[["09R-27L","1100x50"],["09L-27R","980x120"]]}
