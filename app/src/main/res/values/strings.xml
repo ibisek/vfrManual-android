@@ -43,6 +43,9 @@
 
     <string name="textinfo_procedures">Procedures</string>
     <string name="textinfo_contacts">Contacts</string>
+    <string name="textinfo_services">Services</string>
+    <string name="textinfo_services_fuel">Fuel</string>
+    <string name="textinfo_services_oil">Oil</string>
 
     <string name="other_text1_left_column">Prague Information West\nPrague Information East\nPrague Information Morava</string>
     <string name="other_text1_right_column">126.100\n136.175\n136.275</string>

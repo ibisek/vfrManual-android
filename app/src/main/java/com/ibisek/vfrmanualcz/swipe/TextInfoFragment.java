@@ -49,7 +49,9 @@ public class TextInfoFragment extends Fragment {
 
         // CONTACTS:
         sb = new StringBuilder();
-        for(Contact c : rec.contacts) {
+        for (int i = 0; i < rec.contacts.size(); i++) {
+            Contact c = rec.contacts.get(i);
+
             if(c.name != null) {
                 sb.append(c.name);
             }
@@ -61,13 +63,22 @@ public class TextInfoFragment extends Fragment {
                 sb.append("\n  ");
                 sb.append(c.mail);
             }
-            sb.append("\n\n");
+
+            if (i < rec.contacts.size()-1)
+                sb.append("\n\n");
         }
         TextView contacts = view.findViewById(R.id.contacts);
         contacts.setText(sb.toString());
 
         Linkify.addLinks(contacts, Linkify.ALL);
         stripUnderlines(contacts);
+
+        // SERVICES / FUEL & OIL availability:
+        sb = new StringBuilder();
+        sb.append(String.format("%s:\n  %s\n", getResources().getString(R.string.textinfo_services_fuel), (rec.fuel == null ? '?' : rec.fuel)));
+        sb.append(String.format("%s:\n  %s", getResources().getString(R.string.textinfo_services_oil), (rec.oil == null ? '?' : rec.oil)));
+        TextView services = view.findViewById(R.id.services);
+        services.setText(sb.toString());
 
         return view;
     }

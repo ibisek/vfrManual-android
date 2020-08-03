@@ -28,6 +28,7 @@ public class AirportRecord {
     public List<Runway> runways = new ArrayList<>();
     public List<Contact> contacts = new ArrayList<>();
     public List<String> procedures = new ArrayList<>();
+    public String fuel, oil;
 
     public double distance = Double.MAX_VALUE;  // [m] last calculated distance to a point
 
@@ -103,6 +104,9 @@ public class AirportRecord {
                     }
                 }
             }
+
+            if (j2.has("fuel")) fuel = j2.get("fuel").toString();
+            if (j2.has("oil")) oil = j2.get("oil").toString();
         }
     }
 
