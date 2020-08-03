@@ -4,4 +4,11 @@ MapView:
 
 ikonky:
     https://www.flaticon.com/packs/interface
+    https://dryicons.com/icon-packs/stylistica-icons-set
+
+Jak pridat SVGcka:
+    You need to import svg files by following simple steps:
+        1. Right click on drawable
+        2. Click new
+        3. Select Vector Asset
 
