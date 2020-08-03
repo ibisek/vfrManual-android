@@ -224,7 +224,7 @@ public class AirportListItemAdapter extends ArrayAdapter<String> {
     public void addValueToBeginning(AirportRecord record) {
         // if already present.. move it to the beginning:
         if (values.contains(record)) {
-            if (values.indexOf(record) > 1) {
+            if (values.indexOf(record) > 0) {
                 values.remove(record);
                 values.add(0, record);
             }
@@ -232,6 +232,8 @@ public class AirportListItemAdapter extends ArrayAdapter<String> {
             values.add(0, record);
             super.add(record.code);
         }
+
+        notifyDataSetChanged();
     }
 
     public void setValues(List<AirportRecord> newValues) {
