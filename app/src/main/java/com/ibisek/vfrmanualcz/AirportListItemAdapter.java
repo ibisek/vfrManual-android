@@ -238,16 +238,15 @@ public class AirportListItemAdapter extends ArrayAdapter<String> {
 
     public void setValues(List<AirportRecord> newValues) {
         if (newValues != null) {
-            this.values.clear();
-            this.values.addAll(newValues);
-
-            // pokud clear() vyhodi UnsupportedOperationException, tak je to tim, ze
-            // kolekce/pole co je v kontruktoru super.ArrayAdapter-u nema na sobe
-            // clear(!)
-            super.clear();
-
-            for (AirportRecord r : values)
-                super.add(r.code);
+            values.clear();
+            super.clear();  // pokud vyhodi UnsupportedOperationException, tak je to tim, ze kolekce/pole co je v kontruktoru super.ArrayAdapter-u nema na sobe clear(!)
+            
+            for (AirportRecord r : newValues) {
+                if (r.code != null) {
+                    values.add(r);
+                    super.add(r.code);
+                }
+            }
         }
     }
 
