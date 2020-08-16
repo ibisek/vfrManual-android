@@ -21,7 +21,7 @@
                 android:layout_height="0dp"
                 android:layout_marginStart="8dp"
                 android:layout_marginTop="8dp"
-                android:src="@drawable/procedures"
+                android:src="@mipmap/procedures"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
@@ -54,7 +54,7 @@
                 android:layout_height="@android:dimen/app_icon_size"
                 android:layout_marginStart="8dp"
                 android:layout_marginTop="16dp"
-                android:src="@drawable/contacts"
+                android:src="@mipmap/contacts"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/procedures" />
 
@@ -91,7 +91,7 @@
                 android:layout_height="@android:dimen/app_icon_size"
                 android:layout_marginStart="8dp"
                 android:layout_marginTop="16dp"
-                android:src="@drawable/services"
+                android:src="@mipmap/services"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/contacts" />
 
