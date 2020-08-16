@@ -39,6 +39,8 @@
     <string name="textinfo_procedures">Postupy</string>
     <string name="textinfo_contacts">Kontakty</string>
     <string name="textinfo_services">Služby</string>
+    <string name="textinfo_services_fuel">Palivo</string>
+    <string name="textinfo_services_oil">Olej</string>
 
     <string name="about_github_url">github.com/ibisek/vfrManual-android</string>
     <string name="about_github_releases_url">github.com/ibisek/vfrManual-android/releases</string>
