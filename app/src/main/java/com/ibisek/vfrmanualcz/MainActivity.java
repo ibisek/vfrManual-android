@@ -46,7 +46,7 @@ public class MainActivity extends AppCompatActivity {
 
         dataRepository = DataRepository.getInstance(MainActivity.this);
 
-        initSearchField();
+        initSearchField();  
         initListView();
 
         gestureDetector = new GestureDetector(this, new Gesture());
