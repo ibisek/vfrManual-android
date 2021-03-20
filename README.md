@@ -1,6 +1,6 @@
 # vfrManual-android
 
-NEW version for both Android and Apple is available here <a href="https://czlovek.github.io/vfrmanual/">https://czlovek.github.io/vfrmanual/</a>.
+NEW version running on both Android and Apple is available here <a href="https://czlovek.github.io/vfrmanual/">https://czlovek.github.io/vfrmanual/</a>.
 
 Please do not use this first generation app anymore - it has been made obsolete and will no longer receive any updates!!
 
