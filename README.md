@@ -1,5 +1,11 @@
 # vfrManual-android
 
+[NEW] version for android and apple available <a href="https://czlovek.github.io/vfrmanual/">HERE</a>.
+
+Please do not use this one anymore - it has been made obsolete and will no longer receive any updates.
+
+--
+
 Aplikace pro Android 4.1+ (API level 18+) pro zobrazení základních (ale snad všech užitečných) informací o letištích v ČR, SR a některých v Polsku.
 
 Application for Android 4.1+ (API level 18+) to have basic information about airports and airfields in the Czech Republic, Slovakia and also some landing spots in Poland.
